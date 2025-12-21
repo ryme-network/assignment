@@ -225,7 +225,7 @@ Must include:
 **Subject:** [Your Name] - AI Developer Assignment Submission
 
 **Include:**
-1. Link to Git repository (public or provide access)
+1. Pull request link
 2. Results Analysis Document (PDF/Markdown)
 3. Sample JSON output files
 4. Brief note on:
