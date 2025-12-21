@@ -1,0 +1,565 @@
+{
+  "creators": [
+    {
+      "creator_id": "CR001",
+      "name": "Priya's Sustainable Home",
+      "platform": "Instagram",
+      "handle": "@priyassustainablehome",
+      "followers": 145000,
+      "engagement_rate": 0.074,
+      "avg_views": 22000,
+      "content_categories": ["Sustainable Living", "Home Organization", "Zero Waste"],
+      "primary_niche": "Eco-Friendly Lifestyle",
+      "bio": "Making sustainable living simple for Indian homes 🌱 | Zero waste tips | Mumbai mom of 2 | Reducing plastic one refill at a time",
+      "audience_demographics": {
+        "age_groups": {
+          "25-34": 0.58,
+          "35-44": 0.32,
+          "45-54": 0.08,
+          "18-24": 0.02
+        },
+        "gender": {
+          "female": 0.78,
+          "male": 0.20,
+          "other": 0.02
+        },
+        "top_locations": ["Mumbai", "Pune", "Bangalore", "Delhi", "Hyderabad"],
+        "income_levels": {
+          "upper_middle_class": 0.52,
+          "affluent": 0.35,
+          "middle_class": 0.13
+        }
+      },
+      "content_themes": [
+        "Zero waste home swaps for Indian households",
+        "Plastic-free kitchen organization",
+        "Eco-friendly cleaning routines",
+        "Sustainable parenting tips",
+        "Refill culture and waste reduction"
+      ],
+      "values": [
+        "Environmental sustainability",
+        "Practical eco-living for families",
+        "Chemical-free home",
+        "Waste reduction",
+        "Conscious consumption"
+      ],
+      "past_brand_collaborations": [
+        "The Better Home",
+        "Bare Necessities (zero waste store)",
+        "Bombay Greens",
+        "Borosil (sustainable cookware)"
+      ],
+      "posting_frequency": "5-6 posts per week",
+      "content_quality_score": 0.88,
+      "avg_engagement_per_post": 10730,
+      "language": ["Hindi", "English"],
+      "tier": "Mid-tier influencer"
+    },
+    {
+      "creator_id": "CR002",
+      "name": "FitWithAnkita",
+      "platform": "Instagram",
+      "handle": "@fitwithankita",
+      "followers": 285000,
+      "engagement_rate": 0.062,
+      "avg_views": 42000,
+      "content_categories": ["Fitness", "Healthy Eating", "Weight Loss"],
+      "primary_niche": "Health & Fitness",
+      "bio": "Certified nutritionist & fitness coach 💪 | Lost 25kg & kept it off | Healthy eating that doesn't suck | Bangalore",
+      "audience_demographics": {
+        "age_groups": {
+          "25-34": 0.54,
+          "18-24": 0.24,
+          "35-44": 0.18,
+          "45-54": 0.04
+        },
+        "gender": {
+          "female": 0.72,
+          "male": 0.26,
+          "other": 0.02
+        },
+        "top_locations": ["Bangalore", "Mumbai", "Delhi", "Pune", "Hyderabad"],
+        "income_levels": {
+          "upper_middle_class": 0.48,
+          "middle_class": 0.38,
+          "affluent": 0.14
+        }
+      },
+      "content_themes": [
+        "Healthy meal prep and recipes",
+        "Guilt-free dessert alternatives",
+        "Calorie-deficit friendly foods",
+        "Home workout routines",
+        "Weight loss transformation journey"
+      ],
+      "values": [
+        "Sustainable weight loss",
+        "Balance over restriction",
+        "Healthy relationship with food",
+        "Body positivity",
+        "Science-based fitness"
+      ],
+      "past_brand_collaborations": [
+        "HealthifyMe",
+        "MyFitnessPal India",
+        "Yoga Bar",
+        "Fit & Flex"
+      ],
+      "posting_frequency": "Daily posts",
+      "content_quality_score": 0.85,
+      "avg_engagement_per_post": 17670,
+      "language": ["English", "Hindi"],
+      "tier": "Mid-tier influencer"
+    },
+    {
+      "creator_id": "CR003",
+      "name": "HealthyKitchenDiaries",
+      "platform": "YouTube",
+      "handle": "@healthykitchendiaries",
+      "followers": 320000,
+      "engagement_rate": 0.048,
+      "avg_views": 58000,
+      "content_categories": ["Healthy Cooking", "Recipes", "Nutrition"],
+      "primary_niche": "Healthy Food & Cooking",
+      "bio": "Home chef making Indian food healthy 🍛 | Sugar-free recipes | PCOS warrior sharing what works | Delhi-based",
+      "audience_demographics": {
+        "age_groups": {
+          "25-34": 0.48,
+          "35-44": 0.32,
+          "18-24": 0.14,
+          "45-54": 0.06
+        },
+        "gender": {
+          "female": 0.82,
+          "male": 0.16,
+          "other": 0.02
+        },
+        "top_locations": ["Delhi", "Noida", "Mumbai", "Bangalore", "Gurgaon"],
+        "income_levels": {
+          "upper_middle_class": 0.52,
+          "middle_class": 0.32,
+          "affluent": 0.16
+        }
+      },
+      "content_themes": [
+        "Sugar-free Indian desserts",
+        "PCOS-friendly recipes",
+        "Diabetic-friendly cooking",
+        "Healthy Indian meal prep",
+        "Traditional recipes made healthier"
+      ],
+      "values": [
+        "Making healthy accessible",
+        "No deprivation diets",
+        "Indian food can be healthy",
+        "Evidence-based nutrition",
+        "Taste without compromise"
+      ],
+      "past_brand_collaborations": [
+        "Keto India",
+        "True Elements",
+        "Dr. Vaidya's",
+        "Raw Pressery"
+      ],
+      "posting_frequency": "3-4 videos per week",
+      "content_quality_score": 0.90,
+      "avg_engagement_per_post": 15360,
+      "language": ["Hindi", "English"],
+      "tier": "Mid-tier influencer"
+    },
+    {
+      "creator_id": "CR004",
+      "name": "MomLifeWithMeera",
+      "platform": "Instagram",
+      "handle": "@momlifewithmeera",
+      "followers": 195000,
+      "engagement_rate": 0.069,
+      "avg_views": 28000,
+      "content_categories": ["Parenting", "Home Management", "Family Life"],
+      "primary_niche": "Mom & Family Content",
+      "bio": "Mom of 3 | Home organization hacks | Chemical-free parenting | Making mom life easier in Mumbai 💕",
+      "audience_demographics": {
+        "age_groups": {
+          "25-34": 0.52,
+          "35-44": 0.38,
+          "45-54": 0.08,
+          "18-24": 0.02
+        },
+        "gender": {
+          "female": 0.88,
+          "male": 0.10,
+          "other": 0.02
+        },
+        "top_locations": ["Mumbai", "Pune", "Delhi", "Bangalore", "Ahmedabad"],
+        "income_levels": {
+          "upper_middle_class": 0.48,
+          "affluent": 0.32,
+          "middle_class": 0.20
+        }
+      },
+      "content_themes": [
+        "Kid-safe cleaning products",
+        "Home organization for families",
+        "Parenting hacks and tips",
+        "Allergy-free home management",
+        "Working mom routines"
+      ],
+      "values": [
+        "Family health and safety",
+        "Practical parenting",
+        "Chemical-free living",
+        "Organization and efficiency",
+        "Mental wellness for moms"
+      ],
+      "past_brand_collaborations": [
+        "FirstCry",
+        "Mamaearth",
+        "Himalaya Baby",
+        "Pigeon India"
+      ],
+      "posting_frequency": "4-5 posts per week",
+      "content_quality_score": 0.84,
+      "avg_engagement_per_post": 13455,
+      "language": ["Hindi", "English"],
+      "tier": "Mid-tier influencer"
+    },
+    {
+      "creator_id": "CR005",
+      "name": "DiabetesFreeLife",
+      "platform": "Instagram",
+      "handle": "@diabetesfreelife",
+      "followers": 165000,
+      "engagement_rate": 0.076,
+      "avg_views": 26000,
+      "content_categories": ["Diabetes Management", "Health", "Nutrition"],
+      "primary_niche": "Diabetes & Lifestyle Diseases",
+      "bio": "Reversed my diabetes naturally 📊 | Sharing sugar-free living tips | Certified diabetes educator | Helping 10K+ Indians",
+      "audience_demographics": {
+        "age_groups": {
+          "35-44": 0.42,
+          "25-34": 0.28,
+          "45-54": 0.22,
+          "55-64": 0.08
+        },
+        "gender": {
+          "male": 0.52,
+          "female": 0.46,
+          "other": 0.02
+        },
+        "top_locations": ["Delhi", "Mumbai", "Hyderabad", "Chennai", "Bangalore"],
+        "income_levels": {
+          "upper_middle_class": 0.52,
+          "middle_class": 0.32,
+          "affluent": 0.16
+        }
+      },
+      "content_themes": [
+        "Sugar-free food alternatives",
+        "Blood sugar management tips",
+        "Diabetes-friendly recipes",
+        "Lifestyle disease reversal",
+        "Product reviews for diabetics"
+      ],
+      "values": [
+        "Natural diabetes management",
+        "Education and awareness",
+        "Sustainable lifestyle changes",
+        "Evidence-based health",
+        "Community support"
+      ],
+      "past_brand_collaborations": [
+        "Sugar Free",
+        "Apollo Pharmacy",
+        "Diabeto Care",
+        "Wellthy Care"
+      ],
+      "posting_frequency": "5-6 posts per week",
+      "content_quality_score": 0.87,
+      "avg_engagement_per_post": 12540,
+      "language": ["Hindi", "English"],
+      "tier": "Mid-tier influencer"
+    },
+    {
+      "creator_id": "CR006",
+      "name": "CleanHomeSimplified",
+      "platform": "YouTube",
+      "handle": "@cleanhomesimplified",
+      "followers": 128000,
+      "engagement_rate": 0.082,
+      "avg_views": 24000,
+      "content_categories": ["Home Cleaning", "Organization", "Home Care"],
+      "primary_niche": "Home Care & Cleaning",
+      "bio": "Professional home organizer 🏠 | Deep cleaning tutorials | Product reviews | Making Indian homes sparkle",
+      "audience_demographics": {
+        "age_groups": {
+          "25-34": 0.44,
+          "35-44": 0.38,
+          "45-54": 0.14,
+          "18-24": 0.04
+        },
+        "gender": {
+          "female": 0.76,
+          "male": 0.22,
+          "other": 0.02
+        },
+        "top_locations": ["Bangalore", "Mumbai", "Pune", "Hyderabad", "Chennai"],
+        "income_levels": {
+          "middle_class": 0.42,
+          "upper_middle_class": 0.48,
+          "affluent": 0.10
+        }
+      },
+      "content_themes": [
+        "Deep cleaning tutorials",
+        "Cleaning product comparisons",
+        "Kitchen organization hacks",
+        "Bathroom and toilet cleaning",
+        "Stain removal techniques"
+      ],
+      "values": [
+        "Clean home, happy life",
+        "Efficiency in cleaning",
+        "Product effectiveness",
+        "Home aesthetics",
+        "Practical tips"
+      ],
+      "past_brand_collaborations": [
+        "Vim",
+        "Harpic",
+        "Surf Excel",
+        "Amazon Basics"
+      ],
+      "posting_frequency": "3 videos per week",
+      "content_quality_score": 0.83,
+      "avg_engagement_per_post": 10496,
+      "language": ["Hindi", "English"],
+      "tier": "Micro influencer"
+    },
+    {
+      "creator_id": "CR007",
+      "name": "FitnessWithRohan",
+      "platform": "Instagram",
+      "handle": "@fitnessrohanbatra",
+      "followers": 420000,
+      "engagement_rate": 0.055,
+      "avg_views": 68000,
+      "content_categories": ["Fitness", "Bodybuilding", "Nutrition"],
+      "primary_niche": "Fitness & Gym",
+      "bio": "Certified personal trainer | Transformation coach | 100+ clients transformed | Supplements & nutrition | Delhi",
+      "audience_demographics": {
+        "age_groups": {
+          "18-24": 0.38,
+          "25-34": 0.45,
+          "35-44": 0.14,
+          "45-54": 0.03
+        },
+        "gender": {
+          "male": 0.72,
+          "female": 0.26,
+          "other": 0.02
+        },
+        "top_locations": ["Delhi", "Gurgaon", "Mumbai", "Noida", "Bangalore"],
+        "income_levels": {
+          "middle_class": 0.48,
+          "upper_middle_class": 0.38,
+          "affluent": 0.14
+        }
+      },
+      "content_themes": [
+        "Workout routines and form",
+        "Muscle building diet plans",
+        "Supplement reviews",
+        "Body transformation journeys",
+        "Gym equipment recommendations"
+      ],
+      "values": [
+        "Discipline and hard work",
+        "Science-based training",
+        "Natural bodybuilding",
+        "Consistency over perfection",
+        "Community motivation"
+      ],
+      "past_brand_collaborations": [
+        "MuscleBlaze",
+        "Cult.fit",
+        "MyProtein India",
+        "Gym Beam India"
+      ],
+      "posting_frequency": "Daily posts",
+      "content_quality_score": 0.81,
+      "avg_engagement_per_post": 23100,
+      "language": ["Hindi", "English"],
+      "tier": "Mid-tier influencer"
+    },
+    {
+      "creator_id": "CR008",
+      "name": "GreenLivingNaina",
+      "platform": "Instagram",
+      "handle": "@greenlivingnaina",
+      "followers": 178000,
+      "engagement_rate": 0.071,
+      "avg_views": 27000,
+      "content_categories": ["Sustainability", "Eco-Living", "Zero Waste"],
+      "primary_niche": "Sustainable Lifestyle",
+      "bio": "🌱 Eco warrior | Zero waste living in Indian cities | Sustainable swaps | Vegan lifestyle | Reducing my carbon footprint",
+      "audience_demographics": {
+        "age_groups": {
+          "25-34": 0.56,
+          "18-24": 0.24,
+          "35-44": 0.16,
+          "45-54": 0.04
+        },
+        "gender": {
+          "female": 0.74,
+          "male": 0.24,
+          "other": 0.02
+        },
+        "top_locations": ["Bangalore", "Pune", "Mumbai", "Delhi", "Goa"],
+        "income_levels": {
+          "upper_middle_class": 0.52,
+          "affluent": 0.32,
+          "middle_class": 0.16
+        }
+      },
+      "content_themes": [
+        "Zero waste home swaps",
+        "Sustainable fashion and thrifting",
+        "Eco-friendly product reviews",
+        "Plastic-free living",
+        "Vegan lifestyle tips"
+      ],
+      "values": [
+        "Environmental conservation",
+        "Conscious consumption",
+        "Climate action",
+        "Minimalism",
+        "Animal welfare"
+      ],
+      "past_brand_collaborations": [
+        "H&M Conscious Collection",
+        "Westside Slow Fashion",
+        "FabIndia Organic",
+        "Myntra Eco Edit"
+      ],
+      "posting_frequency": "5-6 posts per week",
+      "content_quality_score": 0.86,
+      "avg_engagement_per_post": 12638,
+      "language": ["English", "Hindi"],
+      "tier": "Mid-tier influencer",
+      "notes": "RED FLAG: Claims eco-consciousness but has partnered with H&M and Myntra (fast fashion)"
+    },
+    {
+      "creator_id": "CR009",
+      "name": "PCOSWarriorPreeti",
+      "platform": "Instagram",
+      "handle": "@pcoswarriorpreeti",
+      "followers": 142000,
+      "engagement_rate": 0.085,
+      "avg_views": 24000,
+      "content_categories": ["PCOS", "Women's Health", "Nutrition"],
+      "primary_niche": "PCOS & Hormonal Health",
+      "bio": "Reversed PCOS naturally 💪 | Nutritionist | Sugar-free recipes for hormonal health | Helping women take control",
+      "audience_demographics": {
+        "age_groups": {
+          "25-34": 0.62,
+          "18-24": 0.22,
+          "35-44": 0.14,
+          "45-54": 0.02
+        },
+        "gender": {
+          "female": 0.94,
+          "male": 0.04,
+          "other": 0.02
+        },
+        "top_locations": ["Mumbai", "Delhi", "Bangalore", "Pune", "Hyderabad"],
+        "income_levels": {
+          "upper_middle_class": 0.48,
+          "middle_class": 0.38,
+          "affluent": 0.14
+        }
+      },
+      "content_themes": [
+        "PCOS-friendly recipes and meal plans",
+        "Hormonal health education",
+        "Sugar-free desserts for PCOS",
+        "Lifestyle management for PCOS",
+        "Supplement and nutrition guidance"
+      ],
+      "values": [
+        "Natural healing",
+        "Women's empowerment",
+        "Evidence-based health",
+        "Community support",
+        "Body positivity"
+      ],
+      "past_brand_collaborations": [
+        "Veera Health",
+        "Gynoveda",
+        "Organic India",
+        "Nutriberg"
+      ],
+      "posting_frequency": "4-5 posts per week",
+      "content_quality_score": 0.89,
+      "avg_engagement_per_post": 12070,
+      "language": ["English", "Hindi"],
+      "tier": "Mid-tier influencer"
+    },
+    {
+      "creator_id": "CR010",
+      "name": "TheFoodieNutritionist",
+      "platform": "Instagram",
+      "handle": "@thefoodienutritionist",
+      "followers": 235000,
+      "engagement_rate": 0.064,
+      "avg_views": 38000,
+      "content_categories": ["Food", "Nutrition", "Healthy Eating"],
+      "primary_niche": "Food & Nutrition",
+      "bio": "Nutritionist who loves food 🍰 | Healthy eating without boring meals | Recipe developer | Mumbai-based foodie",
+      "audience_demographics": {
+        "age_groups": {
+          "25-34": 0.52,
+          "18-24": 0.28,
+          "35-44": 0.16,
+          "45-54": 0.04
+        },
+        "gender": {
+          "female": 0.68,
+          "male": 0.30,
+          "other": 0.02
+        },
+        "top_locations": ["Mumbai", "Delhi", "Bangalore", "Pune", "Kolkata"],
+        "income_levels": {
+          "upper_middle_class": 0.52,
+          "affluent": 0.32,
+          "middle_class": 0.16
+        }
+      },
+      "content_themes": [
+        "Healthy restaurant finds",
+        "Recipe development and testing",
+        "Nutrition myths debunked",
+        "Balanced eating approach",
+        "Food photography and styling"
+      ],
+      "values": [
+        "Balance over restriction",
+        "Food is meant to be enjoyed",
+        "Science-based nutrition",
+        "No diet culture",
+        "Quality ingredients"
+      ],
+      "past_brand_collaborations": [
+        "Zomato",
+        "Swiggy",
+        "Nourish Organics",
+        "Epigamia"
+      ],
+      "posting_frequency": "Daily posts",
+      "content_quality_score": 0.87,
+      "avg_engagement_per_post": 15040,
+      "language": ["English", "Hindi"],
+      "tier": "Mid-tier influencer"
+    }
+  ]
+}

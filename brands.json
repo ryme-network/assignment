@@ -1,0 +1,256 @@
+{
+  "brands": [
+    {
+      "brand_id": "BR001",
+      "brand_name": "Happi Planet",
+      "industry": "Eco-Friendly Home Care Products",
+      "company_size": "Startup (20-50 employees)",
+      "founded": 2020,
+      "website": "https://www.happi-planet.com/",
+      "description": "Happi Planet creates effective, eco-friendly home care products powered by nature. From plant-based detergents to natural floor cleaners, we're making sustainable cleaning accessible for Indian households. Our products are tough on stains but gentle on skin and the planet.",
+      "target_audience": {
+        "age_range": "25-45",
+        "primary_gender": "Female (70%), Male (30%)",
+        "locations": ["Mumbai", "Pune", "Bangalore", "Delhi NCR", "Tier 1 cities"],
+        "income_level": "Upper Middle Class (₹8L-₹20L annual income)",
+        "interests": [
+          "Sustainable living and eco-consciousness",
+          "Home care and organization",
+          "Natural and chemical-free products",
+          "Family health and safety",
+          "Environmental responsibility"
+        ],
+        "psychographics": "Urban Indian families who want effective cleaning without harmful chemicals. Concerned about skin allergies, environmental impact, and family health. Value transparency in ingredients. Willing to pay premium for sustainable products that actually work."
+      },
+      "brand_values": [
+        "Powered by nature, not chemicals",
+        "Effective cleaning without compromising safety",
+        "Plastic waste reduction",
+        "Skin-safe and allergy-friendly",
+        "Transparency in ingredients"
+      ],
+      "unique_selling_points": [
+        "India's 1st foaming formulation for less scrubbing",
+        "Plant-based, biodegradable formulas",
+        "Refill pods to reduce plastic waste by 80%",
+        "Gentle on skin - no rashes or allergies",
+        "Works as well as chemical cleaners",
+        "Safe for homes with kids and pets"
+      ],
+      "campaign_goals": {
+        "primary_objective": "Increase brand awareness among eco-conscious urban families",
+        "secondary_objective": "Drive trial of refill pod system and reduce plastic usage",
+        "campaign_type": "Product education + lifestyle integration + sustainability messaging",
+        "key_messages": [
+          "Effective cleaning doesn't need harsh chemicals",
+          "Switch to sustainable without compromising performance",
+          "Safe for your family, kind to the planet"
+        ],
+        "target_metrics": {
+          "reach": "1.5-2 million impressions",
+          "engagement": "40,000+ engaged users",
+          "conversions": "3,000+ first-time purchases via creator codes"
+        }
+      },
+      "creator_preferences": {
+        "follower_range": "80K-350K (micro to mid-tier influencers)",
+        "engagement_priority": "High engagement and authentic community critical",
+        "content_authenticity": "Must genuinely care about sustainability and show actual product usage in daily life",
+        "platforms": ["Instagram", "YouTube"],
+        "content_style": "Authentic home content, educational, family-focused, sustainability angle, before/after cleaning demos",
+        "niche_alignment": [
+          "Sustainable living and zero waste",
+          "Home organization and cleaning",
+          "Mom bloggers and family content",
+          "Eco-conscious lifestyle",
+          "Health and wellness (chemical-free living angle)"
+        ],
+        "language_preference": "Bilingual Hindi + English preferred for urban reach",
+        "must_avoid": [
+          "Luxury lifestyle without sustainability focus",
+          "Creators promoting chemical cleaning brands",
+          "Overly aspirational without relatability",
+          "Beauty-only content without home care angle"
+        ]
+      },
+      "budget": {
+        "campaign_budget": "₹25,00,000",
+        "per_creator_range": "₹1,00,000 - ₹5,00,000",
+        "number_of_creators": "6-8 creators",
+        "product_seeding_budget": "₹3,00,000"
+      },
+      "past_successful_partnerships": [
+        "Mom influencers showing family-safe cleaning",
+        "Sustainability advocates with home care focus",
+        "Home organization creators",
+        "Health-conscious family content creators"
+      ],
+      "avoid_partnerships_with": [
+        "Creators promoting single-use plastics",
+        "Chemical cleaning brand ambassadors",
+        "Pure luxury lifestyle without eco angle",
+        "Creators without family/home content"
+      ],
+      "brand_voice": "Friendly, educational, empowering, relatable, slightly playful but informative",
+      "content_guidelines": {
+        "must_include": [
+          "Actual product usage in daily home routine",
+          "Before/after cleaning demonstrations",
+          "Ingredient transparency and safety messaging",
+          "Refill pod system and plastic reduction angle",
+          "Family/pet safety emphasis"
+        ],
+        "must_avoid": [
+          "Overly scientific or preachy tone",
+          "Guilt-tripping about environmental choices",
+          "Luxury home aesthetics only",
+          "Claims without demonstrations"
+        ]
+      },
+      "indian_market_context": {
+        "challenges": [
+          "Price sensitivity - need to justify premium",
+          "Trust in natural products' effectiveness",
+          "Behavioral change from chemical cleaners"
+        ],
+        "opportunities": [
+          "Growing skin allergy concerns",
+          "Rising eco-consciousness in metros",
+          "Mothers seeking safer products for kids"
+        ]
+      }
+    },
+    {
+      "brand_id": "BR002",
+      "brand_name": "Upside Health",
+      "industry": "Healthy Desserts & Snacks",
+      "company_size": "Startup (30-60 employees)",
+      "founded": 2021,
+      "website": "https://upsidehealth.in/",
+      "description": "Upside Health is revolutionizing Indian desserts and snacks with no added sugar, no gluten, and no compromise on taste. From guilt-free Tiramisu to protein-rich Laddoos, we're proving that healthy can be delicious. Real ingredients, real taste, zero guilt.",
+      "target_audience": {
+        "age_range": "25-45",
+        "primary_gender": "Female (60%), Male (40%)",
+        "locations": ["Mumbai", "Pune", "Bangalore", "Delhi NCR", "Hyderabad", "Tier 1 cities"],
+        "income_level": "Upper Middle Class to Affluent (₹10L-₹30L+ annual income)",
+        "interests": [
+          "Health and fitness",
+          "Nutrition and wellness",
+          "Diabetes management and prevention",
+          "Weight management",
+          "Food and culinary experiences",
+          "Premium quality products"
+        ],
+        "psychographics": "Health-conscious urban Indians who refuse to compromise on taste. Fitness enthusiasts, diabetics, PCOS/thyroid patients, and calorie-conscious individuals who still crave desserts. Value premium quality, willing to pay 2-3x regular prices for genuinely healthy alternatives."
+      },
+      "brand_values": [
+        "Taste without compromise",
+        "No BS ingredients - truly healthy",
+        "Transparency in nutrition",
+        "Guilt-free indulgence",
+        "Quality over everything"
+      },
+      "unique_selling_points": [
+        "No added sugar, sweetened with dates/jaggery/stevia",
+        "No gluten, no preservatives, no seed oils",
+        "High in protein and fiber",
+        "Low refined carbs",
+        "Actually tastes good (not cardboard)",
+        "Premium desserts: Tiramisu, Brownies, Cheesecake, Mithai",
+        "Made fresh in Mumbai, delivered across India"
+      ],
+      "campaign_goals": {
+        "primary_objective": "Drive online orders and subscriptions for desserts and mithai",
+        "secondary_objective": "Position as THE premium healthy dessert brand in India",
+        "campaign_type": "Taste proof + lifestyle aspiration + educational content",
+        "key_messages": [
+          "Your cravings deserve better",
+          "Healthy doesn't mean tasteless",
+          "Desserts that love you back"
+        ],
+        "target_metrics": {
+          "reach": "2-3 million impressions",
+          "engagement": "60,000+ engaged users",
+          "conversions": "2,500+ orders via creator discount codes",
+          "repeat_rate": "30% repeat purchase within 60 days"
+        }
+      },
+      "creator_preferences": {
+        "follower_range": "120K-500K (mid-tier influencers with established credibility)",
+        "engagement_priority": "Balance of reach and engagement - need conversion potential",
+        "content_authenticity": "Must demonstrate actual healthy lifestyle - gym content, meal prep, wellness journey",
+        "platforms": ["Instagram", "YouTube"],
+        "content_style": "Aspirational yet authentic, educational, food porn worthy, fitness integration, honest taste reviews",
+        "niche_alignment": [
+          "Fitness and health (with food angle)",
+          "Healthy cooking and meal prep",
+          "Diabetes/PCOS/thyroid management",
+          "Weight loss journeys",
+          "Food bloggers (healthy/conscious eating)",
+          "Mom bloggers (healthy kids snacks)"
+        ],
+        "language_preference": "Primarily English + Hindi for metro audience",
+        "must_avoid": [
+          "Junk food promoters or inconsistent health messaging",
+          "Extreme diet advocates (keto-only, carnivore, etc.)",
+          "Creators without genuine health interest",
+          "Pure aesthetics without substance"
+        ]
+      },
+      "budget": {
+        "campaign_budget": "₹40,00,000",
+        "per_creator_range": "₹2,50,000 - ₹10,00,000",
+        "number_of_creators": "5-7 creators",
+        "performance_bonus": "20% additional for meeting sales targets",
+        "affiliate_commission": "12% on all orders from creator codes"
+      },
+      "past_successful_partnerships": [
+        "Fitness influencers who share cheat meal alternatives",
+        "Health-focused food bloggers",
+        "PCOS/diabetes management content creators",
+        "Lifestyle creators with wellness focus"
+      ],
+      "avoid_partnerships_with": [
+        "Pure bodybuilding/supplement focus",
+        "Junk food content creators",
+        "Fad diet promoters",
+        "Creators without visible health practices",
+        "Beauty-only content without health angle"
+      ],
+      "brand_voice": "Honest, aspirational but achievable, slightly cheeky, premium but relatable, unapologetically quality-focused",
+      "content_guidelines": {
+        "must_include": [
+          "Honest taste reviews (acknowledge it's premium/different)",
+          "Unboxing and product showcasing",
+          "Integration in fitness/health routines",
+          "Comparison with traditional desserts (nutrition facts)",
+          "Occasion-based usage (festivals, celebrations, cravings)"
+        ],
+        "must_avoid": [
+          "Weight loss guarantees or medical claims",
+          "Comparison that bashes traditional desserts",
+          "Overly clinical or boring presentation",
+          "Hiding the premium pricing"
+        ]
+      },
+      "indian_market_context": {
+        "challenges": [
+          "High price point vs traditional mithai",
+          "Taste skepticism for healthy desserts",
+          "Limited delivery geography (Mumbai/Pune focus)"
+        ],
+        "opportunities": [
+          "Rising diabetes and lifestyle diseases",
+          "Fitness culture boom in metros",
+          "Festival season gifting",
+          "Corporate gifting potential"
+        ]
+      },
+      "special_requirements": {
+        "product_samples": "Must send product samples for genuine reviews",
+        "content_approval": "Taste/nutrition claims must be pre-approved",
+        "exclusivity": "No promotion of direct competitor healthy dessert brands during campaign + 2 months"
+      }
+    }
+  ]
+}
