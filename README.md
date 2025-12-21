@@ -286,7 +286,7 @@ Must include:
 
 ## Questions?
 
-For clarifications within 24 hours of receiving this assignment, contact: [your-email@ryme.ai]
+For clarifications within 24 hours of receiving this assignment, contact: [rahul@ryme.ai]
 
 ---
 
