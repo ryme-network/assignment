@@ -2,7 +2,7 @@ import json
 import os
 import shutil
 from embeddings.embedder import Embedder
-from embeddings.in_memory_store import InMemoryVectorStore
+from embeddings.chroma_store import ChromaVectorStore
 
 from embeddings.schema import (
     creator_content_text,
@@ -68,13 +68,47 @@ def ingest_creators(creators, embedder, store):
     )
 
 
+def ingest_brands(brands_list, embedder, store):
+    brand_texts = []
+    brand_meta = []
+
+    for b in brands_list:
+        brand_id = b["brand_id"]
+
+        brand_texts.append(brand_content_query_text(b))
+        brand_meta.append({
+            "embedding_type": "brand_content",
+            "brand_id": brand_id
+        })
+
+        brand_texts.append(brand_values_query_text(b))
+        brand_meta.append({
+            "embedding_type": "brand_values",
+            "brand_id": brand_id
+        })
+
+        brand_texts.append(brand_audience_query_text(b))
+        brand_meta.append({
+            "embedding_type": "brand_audience",
+            "brand_id": brand_id
+        })
+
+    if brand_texts:
+        embeddings = embedder.encode(brand_texts)
+        store.add(
+            embeddings=embeddings,
+            metadatas=brand_meta,
+            documents=brand_texts
+        )
+
+
 def main():
     creators, brands = load_data()
     brand = brands["brands"][0]  
     creators = creators["creators"]
 
     embedder = Embedder()
-    store = InMemoryVectorStore()
+    store = ChromaVectorStore(persist_directory="./chroma_db", collection_name="creators")
 
     ingest_creators(creators, embedder, store)
 
