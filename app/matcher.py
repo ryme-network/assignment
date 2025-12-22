@@ -1,162 +1,100 @@
 import json
 import os
-import shutil
-from embeddings.embedder import Embedder
-from embeddings.chroma_store import ChromaVectorStore
 
-from embeddings.schema import (
-    creator_content_text,
-    creator_values_text,
-    creator_audience_text,
-    brand_content_query_text,
-    brand_values_query_text,
-    brand_audience_query_text,
-)
-
-from embeddings.filters import apply_hard_filters
-from embeddings.must_avoid import violates_must_avoid
-from embeddings.ranker import MultiScoreRanker
+from embeddings.metadata_store import MetadataStore
+from embeddings.mongodb_filters import MongoDBFilters
+from embeddings.llm_scorer import LLMScorer
+from pipeline import IngestionPipeline
 from embeddings.explain import explain_match
 
-
 def load_data():
-    with open(r"D:\Project\assignment\creators.json", encoding="utf-8") as f:
+    """Load data from JSON files."""
+    script_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    creators_path = os.path.join(script_dir, "creators.json")
+    brands_path = os.path.join(script_dir, "brands.json")
+    
+    with open(creators_path, encoding="utf-8") as f:
         creators = json.load(f)
 
-    with open(r"D:\Project\assignment\brands.json", encoding="utf-8") as f:
+    with open(brands_path, encoding="utf-8") as f:
         brands = json.load(f)
 
     return creators, brands
 
-
-def ingest_creators(creators, embedder, store):
-
-    creator_texts = []
-    creator_ids = []
-    creator_meta = []
-
-    for c in creators:
-        creator_id = c["creator_id"]
-
-        creator_texts.append(creator_content_text(c))
-        creator_ids.append(f"{creator_id}_content")
-        creator_meta.append({
-            "embedding_type": "creator_content",
-            "creator_id": creator_id
-        })
-
-        creator_texts.append(creator_values_text(c))
-        creator_ids.append(f"{creator_id}_values")
-        creator_meta.append({
-            "embedding_type": "creator_values",
-            "creator_id": creator_id
-        })
-
-        creator_texts.append(creator_audience_text(c))
-        creator_ids.append(f"{creator_id}_audience")
-        creator_meta.append({
-            "embedding_type": "creator_audience",
-            "creator_id": creator_id
-        })
-
-    embeddings = embedder.encode(creator_texts)
-
-    store.add(
-        embeddings=embeddings,
-        metadatas=creator_meta,
-        documents=creator_texts
-    )
-
-
-def ingest_brands(brands_list, embedder, store):
-    brand_texts = []
-    brand_meta = []
-
-    for b in brands_list:
-        brand_id = b["brand_id"]
-
-        brand_texts.append(brand_content_query_text(b))
-        brand_meta.append({
-            "embedding_type": "brand_content",
-            "brand_id": brand_id
-        })
-
-        brand_texts.append(brand_values_query_text(b))
-        brand_meta.append({
-            "embedding_type": "brand_values",
-            "brand_id": brand_id
-        })
-
-        brand_texts.append(brand_audience_query_text(b))
-        brand_meta.append({
-            "embedding_type": "brand_audience",
-            "brand_id": brand_id
-        })
-
-    if brand_texts:
-        embeddings = embedder.encode(brand_texts)
-        store.add(
-            embeddings=embeddings,
-            metadatas=brand_meta,
-            documents=brand_texts
-        )
-
-
 def main():
-    creators, brands = load_data()
-    brand = brands["brands"][0]  
-    creators = creators["creators"]
-
-    embedder = Embedder()
-    store = ChromaVectorStore(persist_directory="./chroma_db", collection_name="creators")
-
-    ingest_creators(creators, embedder, store)
-
-    filtered_creators = apply_hard_filters(creators, brand)
-
-    filtered_creators = [
-        c for c in filtered_creators
-        if not violates_must_avoid(c, brand)
-    ]
-
-    creator_lookup = {c["creator_id"]: c for c in filtered_creators}
-
-    ranker = MultiScoreRanker(store, embedder)
-
-    if ranker.is_cold_start_brand(brand):
-        ranker.weights = {
-            "content": 0.55,
-            "values": 0.35,
-            "audience": 0.10,
-        }
-    brand_texts = {
-        "content": brand_content_query_text(brand),
-        "values": brand_values_query_text(brand),
-        "audience": brand_audience_query_text(brand),
-    }
-
-    ranked = ranker.rank_creators(brand_texts, top_k=20)
-
-    ranked = [
-        r for r in ranked
-        if r["creator_id"] in creator_lookup
-    ]
-
+    # Load data
+    creators_data, brands_data = load_data()
+    brand = brands_data["brands"][0]        #TODO: Add from CLI
+    creators = creators_data["creators"]
+    
+    print("Initializing ingestion pipeline...")
+    pipeline = IngestionPipeline()
+    
+    print("Ingesting creators into MongoDB...")
+    creator_stats = pipeline.ingest_creators(creators)
+    print(f"  Ingested {creator_stats['mongodb_creators']} creators")
+    
+    print("Ingesting brands into MongoDB...")
+    brand_stats = pipeline.ingest_brands(brands_data["brands"])
+    print(f"  Ingested {brand_stats['mongodb_brands']} brands")
+    
+    metadata_store = pipeline.metadata_store
+    filters = MongoDBFilters(metadata_store)
+    scorer = LLMScorer()
+    
+    print(f"\nApplying hard filters for brand: {brand.get('brand_name', 'N/A')}...")
+    candidate_ids = filters.apply_hard_filters(brand)
+    print(f"Found {len(candidate_ids)} candidates after filtering")
+    
+    if not candidate_ids:
+        print("No candidates found matching the criteria!")
+        pipeline.close()
+        return
+    
+    # Fetch candidate creators from MongoDB
+    candidates = metadata_store.get_creators_by_ids(candidate_ids)
+    print(f"Fetched {len(candidates)} candidate profiles from MongoDB")
+    
+    # Score candidates using LLM
+    print("\nScoring candidates with LLM (this may take a while)...")
+    scored_results = scorer.score_batch(candidates, brand)
+    print(f"Scored {len(scored_results)} candidates")
+    
+    # Sort by final score
+    scored_results.sort(key=lambda x: x["final_score"], reverse=True)
+    
+    # Get top results
+    top_k = 10
+    top_results = scored_results[:top_k]
+    
+    # Fetch full creator data for explanations
     final_results = []
-    for r in ranked:
-        creator = creator_lookup[r["creator_id"]]
-        r["explanation"] = explain_match(r, creator, brand)
-        final_results.append(r)
-
-    print("\nTop matched creators:\n")
+    for result in top_results:
+        creator = metadata_store.get_creator(result["creator_id"])
+        if creator:
+            result["explanation"] = explain_match(result, creator, brand)
+            result["creator_name"] = creator.get("name", "N/A")
+            final_results.append(result)
+    
+    # Output results
+    print("\n" + "="*80)
+    print("Top Matched Creators:\n")
     for r in final_results[:5]:
         print("=" * 80)
         print(f"Creator ID      : {r['creator_id']}")
+        print(f"Creator Name    : {r.get('creator_name', 'N/A')}")
         print(f"Final Score     : {r['final_score']}")
         print(f"Content Score   : {r['content_score']}")
         print(f"Values Score    : {r['values_score']}")
         print(f"Audience Score  : {r['audience_score']}")
-        print(r["explanation"])
+        if r.get('reasoning'):
+            print(f"LLM Reasoning   : {r['reasoning']}")
+        print(f"\n{r.get('explanation', '')}")
+        print()
+    
+    # Close connections
+    pipeline.close()
+    print("\nPipeline closed successfully.")
 
 
 if __name__ == "__main__":
