@@ -1,5 +1,6 @@
 from typing import Dict, Optional
-from embeddings.direct_field_scorer import DirectFieldScorer
+# DISABLED: Direct field scorer - kept for reference but not used
+# from embeddings.direct_field_scorer import DirectFieldScorer
 
 
 class HybridScorer:
@@ -8,7 +9,8 @@ class HybridScorer:
         audience_weights: Optional[Dict[str, float]] = None,
         overall_weights: Optional[Dict[str, float]] = None
     ):
-        self.direct_field_scorer = DirectFieldScorer()
+        # DISABLED: Direct field scorer - not used in LLM-only approach
+        # self.direct_field_scorer = DirectFieldScorer()
         
         # Weights for combining audience alignment components
         self.audience_weights = audience_weights or {
@@ -55,34 +57,40 @@ class HybridScorer:
         age_score: float,
         llm_audience_score: float
     ) -> float:
+        # DISABLED: Direct field scoring (gender, age) - now using LLM-only approach
+        # Previous implementation combined gender_score, age_score, and llm_audience_score
+        # Now we rely entirely on LLM semantic understanding of audience alignment
         
-        audience_alignment = (
-            self.audience_weights["gender"] * gender_score +
-            self.audience_weights["age"] * age_score +
-            self.audience_weights["llm_audience"] * llm_audience_score
-        )
+        # Return LLM audience score directly (LLM already considers demographics in its analysis)
+        return round(min(1.0, max(0.0, llm_audience_score)), 4)
         
-        return round(min(1.0, max(0.0, audience_alignment)), 4)
+        # OLD CODE (kept for reference, unused):
+        # audience_alignment = (
+        #     self.audience_weights["gender"] * gender_score +
+        #     self.audience_weights["age"] * age_score +
+        #     self.audience_weights["llm_audience"] * llm_audience_score
+        # )
+        # return round(min(1.0, max(0.0, audience_alignment)), 4)
 
     def calculate_comprehensive_scores(
         self,
         creator: Dict,
         brand: Dict,
         llm_scores: Dict[str, float],
-        direct_field_scores: Dict[str, float]
+        direct_field_scores: Dict[str, float] = None  # Now optional, kept for compatibility but unused
     ) -> Dict[str, float]:
         
-        # Extract scores
-        gender_score = direct_field_scores.get("gender_score", 0.5)
-        age_score = direct_field_scores.get("age_score", 0.5)
+        # DISABLED: Direct field scoring (gender_score, age_score) - now using LLM-only approach
+        # The direct_field_scores parameter is kept for backward compatibility but not used
+        
+        # Extract LLM scores only
         llm_content = llm_scores.get("content_score", 0.5)
         llm_values = llm_scores.get("values_score", 0.5)
         llm_audience = llm_scores.get("audience_score", 0.5)
         
-        # Calculate component scores
-        audience_alignment = self.calculate_audience_alignment(
-            gender_score, age_score, llm_audience
-        )
+        # Calculate component scores - using LLM scores directly
+        # Audience alignment now comes entirely from LLM (which considers demographics in its analysis)
+        audience_alignment = round(llm_audience, 4)
         content_relevance = round(llm_content, 4)
         value_alignment = round(llm_values, 4)
         engagement_quality = self.calculate_engagement_quality_score(creator)
@@ -101,11 +109,10 @@ class HybridScorer:
             "value_alignment": value_alignment,
             "engagement_quality": engagement_quality,
             "overall_match_score": round(overall_match_score, 4),
-            # Keep individual scores for reference
-            "gender_score": gender_score,
-            "age_score": age_score,
+            # Keep LLM scores for reference
             "llm_content_score": llm_content,
             "llm_values_score": llm_values,
             "llm_audience_score": llm_audience
+            # NOTE: gender_score and age_score removed - now using LLM-only approach
         }
 

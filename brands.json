@@ -1178,6 +1178,125 @@
           "Creator-led travel discovery"
         ]
       }
+    },
+    {
+      "brand_id": "BR011",
+      "brand_name": "AstroSetu",
+      "industry": "Astrology & Spiritual Wellness Platform",
+      "company_size": "Growth Stage (50-100 employees)",
+      "founded": 2019,
+      "website": "https://www.astrosetu.in/",
+      "description": "AstroSetu is a digital astrology and spiritual guidance platform connecting users with verified astrologers for personalized consultations, horoscopes, and remedial guidance. Blending traditional Vedic astrology with modern digital access, AstroSetu focuses on trust, authenticity, and long-term spiritual well-being.",
+      "target_audience": {
+        "age_range": "22-50",
+        "primary_gender": "Female (60%), Male (40%)",
+        "locations": ["Mumbai", "Delhi NCR", "Bangalore", "Pune", "Jaipur", "Tier 1 cities"],
+        "income_level": "Middle Class to Upper Middle Class (₹4L-₹20L annual income)",
+        "interests": [
+          "Astrology and horoscopes",
+          "Spirituality and mindfulness",
+          "Life guidance and self-discovery",
+          "Vedic astrology",
+          "Numerology and tarot",
+          "Personal growth and mental well-being"
+        ],
+        "psychographics": "Individuals seeking guidance in career, relationships, health, and life decisions. They believe in astrology as a supportive tool rather than blind prediction. Value astrologers with calm communication, ethical practices, and clear explanations. Strongly influenced by astrologer creators they trust."
+      },
+      "brand_values": [
+        "Ethical astrology practices",
+        "Authenticity and trust",
+        "Respect for traditional knowledge",
+        "User privacy and confidentiality",
+        "Spiritual well-being over fear-based marketing"
+      ],
+      "unique_selling_points": [
+        "Verified and vetted astrologers only",
+        "Focus on guidance, not fear or superstition",
+        "Personalized consultations via chat and call",
+        "Combination of astrology, numerology, and tarot",
+        "Transparent pricing with no hidden remedies push"
+      ],
+      "campaign_goals": {
+        "primary_objective": "Onboard high-quality astrologer creators and drive user consultations",
+        "secondary_objective": "Build trust and credibility among astrology-seeking audiences",
+        "campaign_type": "Astrology education + live guidance sessions + creator-led trust building",
+        "key_messages": [
+          "Guidance, not fear",
+          "Astrology with integrity",
+          "Clarity for your life’s questions"
+        ],
+        "target_metrics": {
+          "reach": "2.5-3 million impressions",
+          "engagement": "80,000+ engaged users",
+          "conversions": "10,000+ app sign-ups and 3,000+ first consultations"
+        }
+      },
+      "creator_preferences": {
+        "follower_range": "100K-800K (astrologers and spiritual creators)",
+        "engagement_priority": "High trust, saves, and comment quality over viral reach",
+        "content_authenticity": "Creators must actively practice astrology or spiritual guidance and explain concepts calmly and responsibly",
+        "platforms": ["Instagram", "YouTube"],
+        "content_style": "Horoscope explainers, live astrology sessions, Q&A, educational reels, myth-busting content",
+        "niche_alignment": [
+          "Astrologers and horoscope creators",
+          "Vedic astrology educators",
+          "Tarot and numerology creators",
+          "Spiritual wellness influencers"
+        ],
+        "language_preference": "Hindi + English preferred, regional language astrologers encouraged",
+        "must_avoid": [
+          "Fear-based prediction creators",
+          "Creators selling aggressive paid remedies",
+          "Unverified or pseudo-scientific claims",
+          "Astrology meme pages without educational value"
+        ]
+      },
+      "budget": {
+        "campaign_budget": "₹32,00,000",
+        "per_creator_range": "₹1,00,000 - ₹7,00,000",
+        "number_of_creators": "7-10 creators",
+        "live_session_budget": "₹6,00,000"
+      },
+      "past_successful_partnerships": [
+        "Instagram astrologers",
+        "YouTube horoscope explainers",
+        "Spiritual educators",
+        "Live astrology session hosts"
+      ],
+      "avoid_partnerships_with": [
+        "Creators making extreme future predictions",
+        "Fear-inducing astrology pages",
+        "Creators pushing expensive gemstones or remedies aggressively",
+        "Unethical spiritual marketers"
+      ],
+      "brand_voice": "Calm, reassuring, ethical, educational, spiritually grounded",
+      "content_guidelines": {
+        "must_include": [
+          "Educational context for predictions",
+          "Clear disclaimers (guidance, not guarantees)",
+          "Respectful and calming tone",
+          "User empowerment messaging"
+        ],
+        "must_avoid": [
+          "Fear-based language",
+          "Guaranteed outcome claims",
+          "Pressure-selling remedies",
+          "Manipulative emotional messaging"
+        ]
+      },
+      "indian_market_context": {
+        "challenges": [
+          "Low trust due to fake astrologers",
+          "Regulatory and ethical scrutiny",
+          "Audience skepticism about monetized astrology"
+        ],
+        "opportunities": [
+          "Massive astrology consumption in India",
+          "Creator-led trust building",
+          "Digital consultations replacing offline visits",
+          "Growing interest in mindful spirituality"
+        ]
+      }
     }
   ]
 }

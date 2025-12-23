@@ -7,7 +7,8 @@ from typing import Dict, List, Optional
 from embeddings.metadata_store import MetadataStore
 from embeddings.mongodb_filters import MongoDBFilters
 from embeddings.llm_scorer import LLMScorer
-from embeddings.direct_field_scorer import DirectFieldScorer
+# DISABLED: Direct field scorer - kept for reference but not used
+# from embeddings.direct_field_scorer import DirectFieldScorer
 from embeddings.hybrid_scorer import HybridScorer
 from embeddings.match_explainer import MatchExplainer
 from pipeline import IngestionPipeline
@@ -54,7 +55,6 @@ def recommend_creators_for_brand(
     # Initialize pipeline and ingest data if needed
     pipeline = IngestionPipeline()
     
-    skip_ingestion = True #tmp
     if not skip_ingestion:
         print("Ingesting data into MongoDB...")
         pipeline.ingest_creators(creators_data["creators"])
@@ -64,7 +64,8 @@ def recommend_creators_for_brand(
     metadata_store = pipeline.metadata_store
     filters = MongoDBFilters(metadata_store)
     llm_scorer = LLMScorer()
-    direct_field_scorer = DirectFieldScorer()
+    # DISABLED: Direct field scorer - kept for reference but not used
+    # direct_field_scorer = DirectFieldScorer()
     hybrid_scorer = HybridScorer()
     explainer = MatchExplainer()
     
@@ -93,14 +94,16 @@ def recommend_creators_for_brand(
     candidates = metadata_store.get_creators_by_ids(candidate_ids)
     print(f"Fetched {len(candidates)} candidate profiles")
     
-    # Calculate direct field scores (gender, age)
-    print("\nCalculating direct field scores (gender, age)...")
-    direct_field_scores = {}
-    for candidate in candidates:
-        scores = direct_field_scorer.calculate_direct_field_scores(candidate, transformed_brand)
-        direct_field_scores[candidate["creator_id"]] = scores
+    # DISABLED: Direct field scoring (gender, age) - now using LLM-only approach
+    # The direct_field_scorer is kept in code but not used in calculations
+    # direct_field_scorer = DirectFieldScorer()  # Still imported but unused
+    # print("\nCalculating direct field scores (gender, age)...")
+    # direct_field_scores = {}
+    # for candidate in candidates:
+    #     scores = direct_field_scorer.calculate_direct_field_scores(candidate, transformed_brand)
+    #     direct_field_scores[candidate["creator_id"]] = scores
     
-    # Score candidates using LLM
+    # Score candidates using LLM (now includes all explanations)
     print("\nScoring candidates with LLM (this may take a while)...")
     llm_scored_results = llm_scorer.score_batch(candidates, transformed_brand)
     print(f"Scored {len(llm_scored_results)} candidates")
@@ -116,10 +119,10 @@ def recommend_creators_for_brand(
         if not creator:
             continue
         
-        # Get direct field scores
-        direct_scores = direct_field_scores.get(creator_id, {})
+        # DISABLED: Direct field scores - now using LLM-only approach
+        # direct_scores = direct_field_scores.get(creator_id, {})
         
-        # Calculate comprehensive scores
+        # Calculate comprehensive scores (using LLM scores only, no direct field scores)
         comprehensive_scores = hybrid_scorer.calculate_comprehensive_scores(
             creator=creator,
             brand=transformed_brand,
@@ -128,18 +131,21 @@ def recommend_creators_for_brand(
                 "values_score": llm_result.get("values_score", 0.5),
                 "audience_score": llm_result.get("audience_score", 0.5)
             },
-            direct_field_scores=direct_scores
+            direct_field_scores=None  # Not used anymore
         )
         
-        # Generate explanation
+        # Get LLM-generated explanations (all explanations now come from LLM)
         explanation = explainer.explain_match(
             creator=creator,
             brand=transformed_brand,
             scores=comprehensive_scores,
-            llm_reasoning=llm_result.get("reasoning", "")
+            llm_reasoning=llm_result.get("reasoning", ""),
+            llm_strengths=llm_result.get("strengths", []),
+            llm_concerns=llm_result.get("concerns", []),
+            llm_campaign_fit=llm_result.get("campaign_fit", "")
         )
         
-        # Build result
+        # Build result (gender_score and age_score removed from score_breakdown)
         result = {
             "creator_id": creator_id,
             "creator_name": creator.get("name", "N/A"),
@@ -148,9 +154,8 @@ def recommend_creators_for_brand(
                 "audience_alignment": comprehensive_scores["audience_alignment"],
                 "content_relevance": comprehensive_scores["content_relevance"],
                 "value_alignment": comprehensive_scores["value_alignment"],
-                "engagement_quality": comprehensive_scores["engagement_quality"],
-                "gender_score": comprehensive_scores["gender_score"],
-                "age_score": comprehensive_scores["age_score"]
+                "engagement_quality": comprehensive_scores["engagement_quality"]
+                # NOTE: gender_score and age_score removed - now using LLM-only approach
             },
             "reasoning": explanation["reasoning"],
             "strengths": explanation["strengths"],
@@ -205,6 +210,7 @@ def main():
     )
     parser.add_argument(
         "--skip-ingestion",
+        default=True,
         action="store_true",
         help="Skip data ingestion (assumes data already in MongoDB)"
     )

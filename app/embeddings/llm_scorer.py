@@ -105,7 +105,10 @@ class LLMScorer:
                         "values_score": 0.5,
                         "audience_score": 0.5,
                         "final_score": 0.5,
-                        "reasoning": f"Error during LLM scoring: {error_msg}"
+                        "reasoning": f"Error during LLM scoring: {error_msg}",
+                        "strengths": [],
+                        "concerns": ["Error during analysis"],
+                        "campaign_fit": "Unable to assess campaign fit due to analysis error"
                     }
         
         # If we get here, all retries failed
@@ -114,7 +117,10 @@ class LLMScorer:
             "values_score": 0.5,
             "audience_score": 0.5,
             "final_score": 0.5,
-            "reasoning": "Failed after all retry attempts"
+            "reasoning": "Failed after all retry attempts",
+            "strengths": [],
+            "concerns": ["Unable to complete analysis"],
+            "campaign_fit": "Unable to assess campaign fit"
         }
 
     def _create_scoring_prompt(self, creator: Dict, brand: Dict) -> str:
@@ -154,6 +160,7 @@ Analyze the compatibility between this creator and brand, and provide scores (0.
 - Description: {brand.get('description', 'N/A')[:300]}
 - Brand Values: {', '.join(brand.get('brand_values', []))}
 - Target Audience Gender: {brand_audience.get('primary_gender', 'N/A')}
+- Target Audience Interests: {', '.join(brand_audience.get('interests', []))}
 - Target Locations: {', '.join(brand_audience.get('locations', [])[:5])}
 - Niche Alignment Needed: {', '.join(brand_prefs.get('niche_alignment', []))}
 - Content Style: {brand_prefs.get('content_style', 'N/A')}
@@ -161,7 +168,7 @@ Analyze the compatibility between this creator and brand, and provide scores (0.
 - Primary objective of the Brand campaign : {brand_campaign.get("primary_objective","")}
 - Secondary objective of the Brand campaign : {brand_campaign.get("secondary_objective","")}
 
-Score the match on these dimensions (0.0 to 1.0):
+Score the match on these dimensions (0.0 to 1.0). Before scoring you need to make sure 1 thing in mind. You need to understand properly the relation between the creator audience and what the brand is asking for. You must be very thoughtful before deciding the alignment for a specific brand against a creator, you need to understand what the brand is trying to sell as of now, what are the brand's target audience interests, what are the brand_values and unique_selling_points, and what is the creator audience content_themes and values actaully look like. Once you get the alignment proper, that if the creator is suitable for the brand, then you'll focus on other aspects.
 
 1. **Content Alignment**: How well does the creator's content, niche, and themes align with the brand's needs?
 2. **Values Alignment**: How well do the creator's values and past collaborations align with brand values? Based on the content categories, content themes and values of the creator, you can evaluate them against the brand values, unique selling points and campaign goals. 
@@ -172,8 +179,17 @@ Return ONLY a JSON object in this exact format:
     "content_score": 0.85,
     "values_score": 0.90,
     "audience_score": 0.80,
-    "reasoning": "Brief explanation of the scores (2-3 sentences)"
+    "reasoning": "Detailed explanation of why this creator is a good match for the brand (3-4 sentences)",
+    "strengths": ["Strength 1", "Strength 2", "Strength 3"],
+    "concerns": ["Concern 1", "Concern 2"],
+    "campaign_fit": "Assessment of how well this creator fits the brand's campaign goals (1-2 sentences)"
 }}
+
+Important guidelines:
+- strengths: List 3-5 specific positive aspects of this match. Be specific about why this creator aligns well.
+- concerns: List 2-4 areas that might need attention or could be improved. Be honest and constructive.
+- campaign_fit: Provide a concise assessment of campaign suitability based on brand's campaign_type and objectives.
+- All text should be specific to this creator-brand combination, not generic.
 
 Do not include any other text, only the JSON."""
 
@@ -217,7 +233,10 @@ Do not include any other text, only the JSON."""
                 "values_score": round(values_score, 4),
                 "audience_score": round(audience_score, 4),
                 "final_score": round(final_score, 4),
-                "reasoning": scores.get("reasoning", "")
+                "reasoning": scores.get("reasoning", ""),
+                "strengths": scores.get("strengths", []),
+                "concerns": scores.get("concerns", []),
+                "campaign_fit": scores.get("campaign_fit", "")
             }
 
         except json.JSONDecodeError as e:
@@ -229,7 +248,10 @@ Do not include any other text, only the JSON."""
                 "values_score": 0.5,
                 "audience_score": 0.5,
                 "final_score": 0.5,
-                "reasoning": "Error parsing LLM response"
+                "reasoning": "Error parsing LLM response",
+                "strengths": [],
+                "concerns": ["Error parsing analysis results"],
+                "campaign_fit": "Unable to assess campaign fit"
             }
 
     def score_batch(

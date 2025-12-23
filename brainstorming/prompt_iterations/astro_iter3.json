@@ -1,0 +1,258 @@
+{
+  "brand_name": "AstroSetu",
+  "analysis_timestamp": "2025-12-23T19:25:15.803312Z",
+  "total_creators_analyzed": 10,
+  "recommended_creators": [
+    {
+      "creator_id": "CR008",
+      "creator_name": "GreenLivingNaina",
+      "overall_match_score": 0.6199,
+      "score_breakdown": {
+        "audience_alignment": 0.7,
+        "content_relevance": 0.45,
+        "value_alignment": 0.65,
+        "engagement_quality": 0.7496
+      },
+      "reasoning": "While GreenLivingNaina excels in sustainable living, her content directly lacks alignment with AstroSetu's astrology and spiritual wellness focus. However, there's a potential synergy given her audience's interest in self-discovery and mindfulness, which can sometimes intersect with spiritual pursuits.  Her strong values around conscious consumption and well-being could be leveraged to frame astrological guidance as a tool for mindful decision-making, though a direct content 
+bridge needs to be established.",
+      "strengths": [
+        "Creator's audience exhibits interests in self-discovery and personal growth, which can be nudged towards spiritual wellness.",
+        "GreenLivingNaina's emphasis on conscious consumption and well-being can be framed to align with AstroSetu's ethical 
+and guidance-focused approach to astrology.",
+        "The creator's audience demographics (higher female percentage) and top locations largely overlap with AstroSetu's target markets.",
+        "Her established credibility in promoting conscious living could lend an air of authenticity to AstroSetu's 'ethical 
+astrology' messaging."
+      ],
+      "concerns": [
+        "The creator's core content pillars (sustainability, zero waste) are entirely disconnected from astrology and spiritual wellness.",
+        "Directly promoting astrological services might feel inauthentic or forced within GreenLivingNaina's established eco-warrior persona.",
+        "There's no explicit indication of her audience's interest in astrology or spiritual guidance in her profile."       
+      ],
+      "campaign_fit": "GreenLivingNaina could be a tangential fit for AstroSetu's campaign if the focus shifts to positioning astrological guidance as a component of holistic well-being and conscious decision-making, rather than a direct promotion of astrological services."
+    },
+    {
+      "creator_id": "CR001",
+      "creator_name": "Priya's Sustainable Home",
+      "overall_match_score": 0.5941,
+      "score_breakdown": {
+        "audience_alignment": 0.7,
+        "content_relevance": 0.35,
+        "value_alignment": 0.65,
+        "engagement_quality": 0.7774
+      },
+      "reasoning": "While Priya's Sustainable Home excels in eco-friendly living, there's a significant disconnect with AstroSetu's astrology and spiritual wellness niche. The creator's content themes and past collaborations are heavily skewed towards environmentalism, not personal guidance or astrology. However, there's a potential overlap in the shared value of promoting well-being and conscious living, and the audience demographics and locations show some alignment.",
+      "strengths": [
+        "Strong alignment in audience demographics (female majority) and key metropolitan locations (Mumbai, Pune, Bangalore, Delhi).",
+        "Shared emphasis on well-being and conscious living, though from different perspectives.",
+        "Priya's established trust and credibility within her community could be leveraged for a secondary campaign objective of building trust.",
+        "Her focus on practical advice and simplification might resonate with audiences seeking accessible spiritual guidance."
+      ],
+      "concerns": [
+        "Primary niche and content themes are completely misaligned with the brand's core offering of astrology and spiritual guidance.",
+        "Past collaborations are entirely in the eco-friendly and home goods sector, offering no precedent for promoting spiritual services.",
+        "The brand's primary campaign objective of onboarding astrologer creators and driving consultations is unlikely to be met by this creator's existing content."
+      ],
+      "campaign_fit": "This creator is not a direct fit for AstroSetu's primary campaign objective of onboarding astrologers 
+or driving consultations due to a lack of niche alignment. A potential secondary objective of building general trust and credibility around wellness might be marginally achievable."
+    },
+    {
+      "creator_id": "CR009",
+      "creator_name": "PCOSWarriorPreeti",
+      "overall_match_score": 0.5536,
+      "score_breakdown": {
+        "audience_alignment": 0.7,
+        "content_relevance": 0.3,
+        "value_alignment": 0.5,
+        "engagement_quality": 0.8573
+      },
+      "reasoning": "While PCOSWarriorPreeti's audience is predominantly female and located in key Indian metros aligning with AstroSetu, her core niche of PCOS and hormonal health has very little overlap with astrology and spiritual wellness. The brand's objective is to drive astrologer sign-ups and consultations, which is not directly supported by the creator's current content themes. However, there's a potential to bridge the gap by focusing on the 'spiritual well-being' and 'self-discovery' aspects of hormonal health and how astrology might offer a supplementary, guidance-focused perspective.",
+      "strengths": [
+        "Strong female demographic alignment with the brand's target audience.",
+        "Geographic audience overlap in major Indian cities.",
+        "Creator's focus on empowering women and natural healing could be subtly linked to spiritual well-being.",
+        "High engagement rate relative to follower count suggests an active and invested audience."
+      ],
+      "concerns": [
+        "Significant niche divergence between PCOS/hormonal health and astrology/spiritual wellness.",
+        "Creator's current content themes do not directly relate to astrology or spiritual guidance.",
+        "Risk of alienating core audience if the brand partnership is not framed carefully."
+      ],
+      "campaign_fit": "This creator could be a tangential fit if the campaign aims to reach women interested in holistic well-being, framing astrology as a tool for self-discovery and spiritual balance within their health journey. However, it's unlikely to be a primary driver for astrologer sign-ups without a very strategic content approach."
+    },
+    {
+      "creator_id": "CR004",
+      "creator_name": "MomLifeWithMeera",
+      "overall_match_score": 0.4943,
+      "score_breakdown": {
+        "audience_alignment": 0.65,
+        "content_relevance": 0.3,
+        "value_alignment": 0.4,
+        "engagement_quality": 0.7287
+      },
+      "reasoning": "While MomLifeWithMeera's audience has some overlap with AstroSetu's target demographic in terms of location and gender, her core content niche of parenting and home management does not directly align with astrology and spiritual wellness. There's a significant disconnect between the creator's established content themes and what AstroSetu is looking to promote, making a natural integration challenging.",
+      "strengths": [
+        "Strong audience presence in key metro cities (Mumbai, Pune, Bangalore) where AstroSetu also targets.",
+        "High female audience percentage (88%) which aligns with AstroSetu's primary target gender.",
+        "Creator's emphasis on mental wellness for moms could potentially be an avenue for discussing spiritual well-being.",        "Past collaborations with reputable Indian brands indicate experience and professionalism."
+      ],
+      "concerns": [
+        "Primary niche (Mom & Family) is a significant departure from AstroSetu's astrology and spiritual wellness niche.",  
+        "Content themes (kid-safe cleaning, home organization) are not directly related to astrological or spiritual guidance.",
+        "Low engagement rate (0.069) might impact campaign performance.",
+        "No prior collaborations or content related to astrology or spirituality, which could lead to inauthentic content."  
+      ],
+      "campaign_fit": "This creator is a weak fit for AstroSetu's primary objective of onboarding astrologer creators and driving user consultations, as her audience is not primarily seeking astrological guidance. However, there's a minor potential for secondary objectives like building trust if the content can be carefully positioned around mental wellness and life guidance for mothers."
+    },
+    {
+      "creator_id": "CR005",
+      "creator_name": "DiabetesFreeLife",
+      "overall_match_score": 0.4882,
+      "score_breakdown": {
+        "audience_alignment": 0.7,
+        "content_relevance": 0.2,
+        "value_alignment": 0.4,
+        "engagement_quality": 0.7878
+      },
+      "reasoning": "While DiabetesFreeLife's audience shares some demographic overlap with AstroSetu, their primary content niche in diabetes management and lifestyle diseases does not directly align with astrology and spiritual wellness. The creator's values of 'natural diabetes management' and 'evidence-based health' may also present a philosophical disconnect with a spiritual guidance platform. However, the creator does touch upon 'lifestyle disease reversal' and 'sustainable lifestyle changes,' which could potentially be framed to include mental well-being and spiritual guidance as complementary aspects.",        
+      "strengths": [
+        "Significant audience size (165k followers) on Instagram.",
+        "Strong engagement with a health-conscious audience.",
+        "Creator's focus on 'lifestyle disease reversal' offers a tangential connection to personal growth and well-being.", 
+        "Creator's audience is concentrated in major Indian metropolitan areas, which aligns with the brand's target locations."
+      ],
+      "concerns": [
+        "The core niche of diabetes management is entirely unrelated to astrology and spiritual wellness.",
+        "The creator's emphasis on 'natural' and 'evidence-based' health might conflict with the nature of astrological guidance.",
+        "The creator's past collaborations are with health and pharmacy brands, not spiritual platforms, indicating a lack of direct niche experience."
+      ],
+      "campaign_fit": "This creator is a weak fit for AstroSetu's campaign objectives. The fundamental misalignment in niche 
+and content focus would likely result in low conversion rates and a disconnect with the brand's core offering of astrological consultations."
+    },
+    {
+      "creator_id": "CR002",
+      "creator_name": "FitWithAnkita",
+      "overall_match_score": 0.4875,
+      "score_breakdown": {
+        "audience_alignment": 0.7,
+        "content_relevance": 0.25,
+        "value_alignment": 0.4,
+        "engagement_quality": 0.6836
+      },
+      "reasoning": "While FitWithAnkita's audience demographics and locations show some overlap with AstroSetu's target, there is a significant disconnect in content and values. FitWithAnkita's expertise lies in science-based health and fitness, with no discernible connection to astrology or spiritual wellness. AstroSetu's core offering is astrological guidance, which is entirely outside of FitWithAnkita's established niche and content themes.",
+      "strengths": [
+        "Creator's audience is located in key target cities for AstroSetu (Bangalore, Mumbai, Delhi).",
+        "A significant portion of the creator's audience is female, aligning with AstroSetu's primary target demographic.",  
+        "FitWithAnkita has experience collaborating with brands in the wellness space, indicating a professional approach to 
+partnerships."
+      ],
+      "concerns": [
+        "Complete lack of content alignment with astrology, spiritual wellness, or related topics.",
+        "Creator's bio and content themes are focused on tangible health and fitness outcomes, not intangible spiritual guidance.",
+        "No evidence in past collaborations or content of any interest in or promotion of astrology or spiritual practices." 
+      ],
+      "campaign_fit": "This creator is a poor fit for AstroSetu's campaign objectives. The focus on onboarding astrologer creators and driving consultations requires influencers with established credibility and audience interest in astrology, which FitWithAnkita does not possess."
+    },
+    {
+      "creator_id": "CR003",
+      "creator_name": "HealthyKitchenDiaries",
+      "overall_match_score": 0.4456,
+      "score_breakdown": {
+        "audience_alignment": 0.7,
+        "content_relevance": 0.15,
+        "value_alignment": 0.4,
+        "engagement_quality": 0.6039
+      },
+      "reasoning": "While HealthyKitchenDiaries has a strong engagement rate and audience located in key metropolitan areas targeted by AstroSetu, there is a significant mismatch in content niche. The creator's focus on healthy cooking and nutrition 
+does not directly align with AstroSetu's offerings in astrology and spiritual wellness. The brand's values are centered around ethical astrology and spiritual well-being, which are not explicitly reflected in the creator's current content themes or stated values, although a general emphasis on well-being could be a tenuous link.",
+      "strengths": [
+        "Strong follower base on YouTube (320,000) providing broad reach.",
+        "High audience concentration in key target locations like Delhi and Mumbai.",
+        "Creator's bio mentions 'PCOS warrior,' which could potentially resonate with a segment of the audience seeking guidance for life challenges, a tangential link to spiritual wellness.",
+        "The creator's value of 'making healthy accessible' could be reframed to 'making well-being accessible,' albeit a stretch."
+      ],
+      "concerns": [
+        "Complete disconnect between the creator's primary niche (Healthy Food & Cooking) and the brand's niche (Astrology & 
+Spiritual Wellness).",
+        "Lack of evidence in the creator's profile of any interest or content related to astrology, spirituality, or mental well-being.",
+        "The creator's engagement rate, while decent, might not be sufficient for a campaign focused on driving user consultations for a service like AstroSetu without strong content alignment.",
+        "Brand values like 'ethical astrology practices' and 'respect for traditional knowledge' are not mirrored in the creator's current profile."
+      ],
+      "campaign_fit": "This creator is not a strong fit for AstroSetu's primary campaign objective of onboarding astrologer creators and driving user consultations due to a fundamental misalignment in niche and content. A campaign focused on building trust and credibility would also be challenging without a more direct content connection."
+    },
+    {
+      "creator_id": "CR006",
+      "creator_name": "CleanHomeSimplified",
+      "overall_match_score": 0.4373,
+      "score_breakdown": {
+        "audience_alignment": 0.65,
+        "content_relevance": 0.15,
+        "value_alignment": 0.3,
+        "engagement_quality": 0.8155
+      },
+      "reasoning": "While CleanHomeSimplified has a strong engagement rate and a substantial female audience in key Indian cities, her niche of home care and cleaning has virtually no overlap with AstroSetu's astrology and spiritual wellness focus. The content themes and creator values are entirely disconnected from the brand's offerings, making a direct content collaboration highly improbable. Audience alignment is the only moderate positive due to shared urban demographics and a significant female skew, which may indirectly correlate with interest in self-help and guidance, but not specifically astrology.",
+      "strengths": [
+        "Strong follower base (128k) on YouTube, indicating potential reach.",
+        "High female audience percentage (76%) aligns with the brand's target gender demographic.",
+        "Audience concentration in key metropolitan areas (Bangalore, Mumbai, Pune) overlaps with AstroSetu's target locations.",
+        "Creator's engagement rate (0.082) is respectable, suggesting an active community.",
+        "Past collaborations with well-known consumer brands demonstrate experience in brand partnerships."
+      ],
+      "concerns": [
+        "Complete disconnect between the creator's core niche (home care/cleaning) and the brand's niche (astrology/spiritual wellness).",
+        "Creator's content themes (deep cleaning, organization, product reviews) are not relevant to AstroSetu's offerings.",        "Creator's stated values (efficiency, product effectiveness, home aesthetics) do not directly align with AstroSetu's 
+values (ethical astrology, spiritual well-being, trust).",
+        "No apparent audience interest in astrology, spirituality, or life guidance based on the creator's profile."
+      ],
+      "campaign_fit": "This creator is a poor fit for AstroSetu's campaign objectives. The lack of content and values alignment means direct promotion of astrology services would feel forced and inauthentic to the creator's audience. Indirect or tangential campaign ideas would be extremely difficult to conceptualize and execute effectively."
+    },
+    {
+      "creator_id": "CR010",
+      "creator_name": "TheFoodieNutritionist",
+      "overall_match_score": 0.4307,
+      "score_breakdown": {
+        "audience_alignment": 0.6,
+        "content_relevance": 0.15,
+        "value_alignment": 0.4,
+        "engagement_quality": 0.7045
+      },
+      "reasoning": "The Foodie Nutritionist's core niche in food and nutrition presents a significant disconnect with AstroSetu's astrology and spiritual wellness offerings. While both target similar demographic locations and have a substantial female audience, the content themes and interests are largely divergent. The creator's focus on healthy eating, recipes, and debunking nutrition myths does not directly align with the brand's need for astrology and horoscope content. However, there's a potential for a very niche cross-over if the brand aims to explore the intersection of holistic wellness and mindful eating, but this is a speculative fit.",
+      "strengths": [
+        "Shared target audience locations (Mumbai, Delhi, Bangalore, Pune) with AstroSetu.",
+        "A significant portion of the creator's audience is female, aligning with the brand's target demographic.",
+        "The creator's emphasis on 'balance over restriction' and 'food is meant to be enjoyed' could subtly tie into a holistic wellness narrative if approached carefully.",
+        "The creator's audience size (235k followers) is substantial for potential reach."
+      ],
+      "concerns": [
+        "The primary niche (Food & Nutrition) is fundamentally different from the brand's niche (Astrology & Spiritual Wellness).",
+        "The creator's content themes (healthy recipes, restaurant finds, nutrition myths) do not directly support the brand's campaign objectives of onboarding astrologers and driving consultations.",
+        "No explicit mention or demonstration of interest in astrology, spirituality, or wellness within the creator's profile.",
+        "The engagement rate (0.064) is on the lower side for the follower count, which might impact campaign effectiveness."      ],
+      "campaign_fit": "This creator is a low-fit for AstroSetu's primary campaign objectives due to a significant mismatch in niche and content themes. A campaign focusing on astrologers or consultations would not resonate with The Foodie Nutritionist's audience's established interests."
+    },
+    {
+      "creator_id": "CR007",
+      "creator_name": "FitnessWithRohan",
+      "overall_match_score": 0.4232,
+      "score_breakdown": {
+        "audience_alignment": 0.65,
+        "content_relevance": 0.2,
+        "value_alignment": 0.3,
+        "engagement_quality": 0.621
+      },
+      "reasoning": "While FitnessWithRohan has a strong following in major Indian cities, his primary niche in fitness and bodybuilding is a significant mismatch for AstroSetu's astrology and spiritual wellness platform. There is minimal overlap in content themes, values, and the brand's objective of onboarding astrologers.  The audience alignment is the strongest factor, 
+but not enough to overcome the fundamental disconnect in core offerings.",
+      "strengths": [
+        "Large and engaged audience in key target locations (Delhi, Mumbai, Bangalore).",
+        "High follower count and established presence on Instagram.",
+        "Audience exhibits a slight interest in personal growth, which could be a tangential bridge."
+      ],
+      "concerns": [
+        "Complete disconnect between the creator's fitness niche and the brand's astrology/spiritual wellness focus.",       
+        "Content themes (workouts, supplements, bodybuilding) are entirely unrelated to astrology, horoscopes, or spiritual guidance.",
+        "Creator's values (discipline, hard work, natural bodybuilding) do not directly align with AstroSetu's focus on ethical astrology and spiritual well-being.",
+        "Past collaborations are exclusively in the fitness and supplement industry, indicating no prior experience or alignment with spiritual or wellness platforms."
+      ],
+      "campaign_fit": "This creator is not a suitable fit for AstroSetu's campaign objectives, as their niche, content, and audience interests are fundamentally misaligned with the brand's offering of astrology and spiritual guidance."
+    }
+  ]
+}

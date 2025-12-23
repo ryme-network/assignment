@@ -1,0 +1,266 @@
+{
+  "brand_name": "AstroSetu",
+  "analysis_timestamp": "2025-12-23T18:56:55.039795Z",
+  "total_creators_analyzed": 10,
+  "recommended_creators": [
+    {
+      "creator_id": "CR004",
+      "creator_name": "MomLifeWithMeera",
+      "overall_match_score": 0.6253,
+      "score_breakdown": {
+        "audience_alignment": 0.7867,
+        "content_relevance": 0.35,
+        "value_alignment": 0.7,
+        "engagement_quality": 0.7287,
+        "gender_score": 0.568,
+        "age_score": 0.9511
+      },
+      "reasoning": "This creator has moderate alignment with some areas requiring attention. The creator's audience demographics closely match the brand's target market. The creator's content niche (Mom & Family) is very distant from the brand's (Astrology & Spiritual Wellness). However, the creator's values around mental wellness for moms and chemical-free living could indirectly appeal to an audience seeking guidance. The audience demographics and locations show a strong overlap, making the potential for audience alignment high despite content divergence.",
+      "strengths": [
+        "Strong audience demographic match",
+        "Age range alignment: Creator's audience matches brand's target age group",
+        "Geographic overlap in pune, mumbai"
+      ],
+      "concerns": [
+        "Gender distribution may not match brand's target audience",
+        "Content niche may not fully align with brand messaging needs"
+      ],
+      "campaign_fit": "Moderate fit - may require additional vetting and alignment discussions"
+    },
+    {
+      "creator_id": "CR009",
+      "creator_name": "PCOSWarriorPreeti",
+      "overall_match_score": 0.5806,
+      "score_breakdown": {
+        "audience_alignment": 0.7235,
+        "content_relevance": 0.2,
+        "value_alignment": 0.7,
+        "engagement_quality": 0.8573,
+        "gender_score": 0.58,
+        "age_score": 0.8444
+      },
+      "reasoning": "This creator has moderate alignment with some areas requiring attention. Content alignment is low as the 
+creator's niche is PCOS and hormonal health, with no overlap with astrology. Values align reasonably well, as both prioritize ethical practices and well-being. Audience alignment is moderate, with a significant female demographic and overlap in locations, but a potential mismatch in core interests.",
+      "strengths": [
+        "Strong audience demographic match",
+        "Age range alignment: Creator's audience matches brand's target age group",
+        "High engagement rate: 8.5% indicates active community",
+        "High content quality score indicates professional production",
+        "Geographic overlap in pune, mumbai"
+      ],
+      "concerns": [
+        "Gender distribution may not match brand's target audience",
+        "Content niche may not fully align with brand messaging needs"
+      ],
+      "campaign_fit": "Moderate fit - may require additional vetting and alignment discussions"
+    },
+    {
+      "creator_id": "CR008",
+      "creator_name": "GreenLivingNaina",
+      "overall_match_score": 0.533,
+      "score_breakdown": {
+        "audience_alignment": 0.7018,
+        "content_relevance": 0.2,
+        "value_alignment": 0.6,
+        "engagement_quality": 0.7496,
+        "gender_score": 0.54,
+        "age_score": 0.8222
+      },
+      "reasoning": "This creator has moderate alignment with some areas requiring attention. The creator's primary niche in sustainable living does not directly align with AstroSetu's astrology and spiritual wellness platform, leading to a low content score. While there's a potential overlap in values around consciousness and well-being, the core subject matter is disparate. The audience demographic and location are somewhat aligned, but the interests are not a direct match, impacting the audience score.",
+      "strengths": [
+        "Strong audience demographic match",
+        "Age range alignment: Creator's audience matches brand's target age group",
+        "High content quality score indicates professional production",
+        "Geographic overlap in pune, mumbai"
+      ],
+      "concerns": [
+        "Gender distribution may not match brand's target audience",
+        "Content niche may not fully align with brand messaging needs",
+        "Potential values misalignment - review past collaborations carefully"
+      ],
+      "campaign_fit": "Moderate fit - may require additional vetting and alignment discussions"
+    },
+    {
+      "creator_id": "CR010",
+      "creator_name": "TheFoodieNutritionist",
+      "overall_match_score": 0.5222,
+      "score_breakdown": {
+        "audience_alignment": 0.6883,
+        "content_relevance": 0.2,
+        "value_alignment": 0.6,
+        "engagement_quality": 0.7045,
+        "gender_score": 0.528,
+        "age_score": 0.7956
+      },
+      "reasoning": "This creator has moderate alignment with some areas requiring attention. The creator's niche (Food & Nutrition) is entirely misaligned with the brand's niche (Astrology & Spiritual Wellness). While there's a moderate overlap in values (balance, enjoyment, science-based) and audience demographics/locations, the core content pillars do not match the brand's campaign objectives of onboarding astrologers and driving consultations.",
+      "strengths": [
+        "Age range alignment: Creator's audience matches brand's target age group",
+        "High content quality score indicates professional production",
+        "Geographic overlap in pune, mumbai"
+      ],
+      "concerns": [
+        "Gender distribution may not match brand's target audience",
+        "Content niche may not fully align with brand messaging needs",
+        "Potential values misalignment - review past collaborations carefully"
+      ],
+      "campaign_fit": "Moderate fit - may require additional vetting and alignment discussions"
+    },
+    {
+      "creator_id": "CR003",
+      "creator_name": "HealthyKitchenDiaries",
+      "overall_match_score": 0.5144,
+      "score_breakdown": {
+        "audience_alignment": 0.7126,
+        "content_relevance": 0.2,
+        "value_alignment": 0.6,
+        "engagement_quality": 0.6039,
+        "gender_score": 0.556,
+        "age_score": 0.88
+      },
+      "reasoning": "This creator has moderate alignment with some areas requiring attention. The creator's primary niche is healthy food and cooking, which has minimal direct overlap with AstroSetu's astrology and spiritual wellness focus. While both may touch on well-being, the core content pillars are misaligned. Values alignment is moderate due to a shared emphasis on well-being and accessible guidance, but audience overlap is the strongest point, with both targeting primarily females in similar urban Indian locations.",
+      "strengths": [
+        "Strong audience demographic match",
+        "Age range alignment: Creator's audience matches brand's target age group",
+        "High content quality score indicates professional production",
+        "Geographic overlap in mumbai, bangalore"
+      ],
+      "concerns": [
+        "Gender distribution may not match brand's target audience",
+        "Content niche may not fully align with brand messaging needs",
+        "Potential values misalignment - review past collaborations carefully"
+      ],
+      "campaign_fit": "Moderate fit - may require additional vetting and alignment discussions"
+    },
+    {
+      "creator_id": "CR006",
+      "creator_name": "CleanHomeSimplified",
+      "overall_match_score": 0.4936,
+      "score_breakdown": {
+        "audience_alignment": 0.7043,
+        "content_relevance": 0.2,
+        "value_alignment": 0.4,
+        "engagement_quality": 0.8155,
+        "gender_score": 0.544,
+        "age_score": 0.9111
+      },
+      "reasoning": "This creator has moderate alignment with some areas requiring attention. The creator's niche is home care and cleaning, which has very little overlap with AstroSetu's astrology and spiritual wellness focus. While some values might subtly align (e.g., 'clean home, happy life' could extend to mental well-being), the core content and past collaborations are mismatched. The audience shows some interest overlap in locations and a slightly higher female demographic, but lacks a direct alignment with astrology interests.",
+      "strengths": [
+        "Strong audience demographic match",
+        "Age range alignment: Creator's audience matches brand's target age group",
+        "High engagement rate: 8.2% indicates active community",
+        "Geographic overlap in pune, mumbai"
+      ],
+      "concerns": [
+        "Gender distribution may not match brand's target audience",
+        "Content niche may not fully align with brand messaging needs",
+        "Potential values misalignment - review past collaborations carefully"
+      ],
+      "campaign_fit": "Moderate fit - may require additional vetting and alignment discussions"
+    },
+    {
+      "creator_id": "CR001",
+      "creator_name": "Priya's Sustainable Home",
+      "overall_match_score": 0.4865,
+      "score_breakdown": {
+        "audience_alignment": 0.7497,
+        "content_relevance": 0.15,
+        "value_alignment": 0.4,
+        "engagement_quality": 0.7774,
+        "gender_score": 0.548,
+        "age_score": 0.9511
+      },
+      "reasoning": "This creator has moderate alignment with some areas requiring attention. The creator's primary niche of eco-friendly living has almost no direct overlap with AstroSetu's astrology and spiritual wellness focus, leading to a very low content alignment score. While some shared values around conscious living and authenticity exist, they are not directly applicable to the brand's core offering. The audience demographics and locations have some overlap, particularly with the female demographic interested in self-discovery, but the core interests are misaligned.",
+      "strengths": [
+        "Strong audience demographic match",
+        "Age range alignment: Creator's audience matches brand's target age group",
+        "High engagement rate: 7.4% indicates active community",
+        "High content quality score indicates professional production",
+        "Geographic overlap in pune, mumbai"
+      ],
+      "concerns": [
+        "Gender distribution may not match brand's target audience",
+        "Content niche may not fully align with brand messaging needs",
+        "Potential values misalignment - review past collaborations carefully"
+      ],
+      "campaign_fit": "Moderate fit - may require additional vetting and alignment discussions"
+    },
+    {
+      "creator_id": "CR002",
+      "creator_name": "FitWithAnkita",
+      "overall_match_score": 0.4622,
+      "score_breakdown": {
+        "audience_alignment": 0.7154,
+        "content_relevance": 0.15,
+        "value_alignment": 0.4,
+        "engagement_quality": 0.6836,
+        "gender_score": 0.536,
+        "age_score": 0.8222
+      },
+      "reasoning": "This creator has moderate alignment with some areas requiring attention. Content alignment is low as FitWithAnkita's niche is health & fitness, not astrology. While there's some overlap in audience interests like self-discovery, the core content themes are fundamentally different. Values alignment is moderate due to shared emphasis on well-being, but the specific domain expertise is a mismatch. Audience alignment is the strongest factor, with significant overlap in gender, locations, and a general interest in self-improvement and life guidance.",
+      "strengths": [
+        "Strong audience demographic match",
+        "Age range alignment: Creator's audience matches brand's target age group",
+        "Geographic overlap in pune, mumbai"
+      ],
+      "concerns": [
+        "Gender distribution may not match brand's target audience",
+        "Content niche may not fully align with brand messaging needs",
+        "Potential values misalignment - review past collaborations carefully"
+      ],
+      "campaign_fit": "Moderate fit - may require additional vetting and alignment discussions"
+    },
+    {
+      "creator_id": "CR005",
+      "creator_name": "DiabetesFreeLife",
+      "overall_match_score": 0.4518,
+      "score_breakdown": {
+        "audience_alignment": 0.7122,
+        "content_relevance": 0.15,
+        "value_alignment": 0.3,
+        "engagement_quality": 0.7878,
+        "gender_score": 0.484,
+        "age_score": 0.8222
+      },
+      "reasoning": "This creator has moderate alignment with some areas requiring attention. There is a significant mismatch 
+in content alignment; the creator focuses on diabetes management, while the brand is in astrology. However, values alignment 
+is moderate due to a shared emphasis on education and evidence-based approaches (for the creator) versus ethical practices and trust (for the brand). Audience alignment is strong, with both targeting similar gender demographics and key urban locations, suggesting the creator's audience might be open to exploring spiritual wellness.",
+      "strengths": [
+        "Strong audience demographic match",
+        "Age range alignment: Creator's audience matches brand's target age group",
+        "High engagement rate: 7.6% indicates active community",
+        "High content quality score indicates professional production",
+        "Geographic overlap in mumbai, bangalore"
+      ],
+      "concerns": [
+        "Gender distribution may not match brand's target audience",
+        "Content niche may not fully align with brand messaging needs",
+        "Potential values misalignment - review past collaborations carefully"
+      ],
+      "campaign_fit": "Moderate fit - may require additional vetting and alignment discussions"
+    },
+    {
+      "creator_id": "CR007",
+      "creator_name": "FitnessWithRohan",
+      "overall_match_score": 0.4113,
+      "score_breakdown": {
+        "audience_alignment": 0.5771,
+        "content_relevance": 0.15,
+        "value_alignment": 0.4,
+        "engagement_quality": 0.621,
+        "gender_score": 0.444,
+        "age_score": 0.7333
+      },
+      "reasoning": "This creator has moderate alignment with some areas requiring attention. There is a significant misalignment in content and niche between FitnessWithRohan and AstroSetu. While there's some overlap in audience demographics and location, the core interests do not align. The creator's focus on physical fitness and bodybuilding is fundamentally different from the brand's emphasis on astrology and spiritual wellness, leading to low scores in content and values alignment.",        
+      "strengths": [
+        "Geographic overlap in mumbai, bangalore"
+      ],
+      "concerns": [
+        "Limited audience demographic alignment - may not reach target market effectively",
+        "Gender distribution may not match brand's target audience",
+        "Content niche may not fully align with brand messaging needs",
+        "Potential values misalignment - review past collaborations carefully"
+      ],
+      "campaign_fit": "Moderate fit - may require additional vetting and alignment discussions"
+    }
+  ]
+}
