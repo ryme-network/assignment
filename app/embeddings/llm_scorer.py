@@ -128,6 +128,7 @@ class LLMScorer:
         # Extract brand info
         brand_audience = brand.get('target_audience', {})
         brand_prefs = brand.get('creator_preferences', {})
+        brand_campaign = brand.get('campaign_goals', {})
         
         prompt = f"""You are a marketing agency expert at matching influencers with brands for marketing campaigns.
 
@@ -156,12 +157,15 @@ Analyze the compatibility between this creator and brand, and provide scores (0.
 - Target Locations: {', '.join(brand_audience.get('locations', [])[:5])}
 - Niche Alignment Needed: {', '.join(brand_prefs.get('niche_alignment', []))}
 - Content Style: {brand_prefs.get('content_style', 'N/A')}
+- Unique Selling points: {', '.join(brand.get('unique_selling_points', []))}
+- Primary objective of the Brand campaign : {brand_campaign.get("primary_objective","")}
+- Secondary objective of the Brand campaign : {brand_campaign.get("secondary_objective","")}
 
 Score the match on these dimensions (0.0 to 1.0):
 
 1. **Content Alignment**: How well does the creator's content, niche, and themes align with the brand's needs?
-2. **Values Alignment**: How well do the creator's values and past collaborations align with brand values?
-3. **Audience Alignment**: How well does the creator's audience (demographics, locations, interests) match the brand's target audience?
+2. **Values Alignment**: How well do the creator's values and past collaborations align with brand values? Based on the content categories, content themes and values of the creator, you can evaluate them against the brand values, unique selling points and campaign goals. 
+3. **Audience Alignment**: How well does the creator's audience (demographics, locations, interests) match the brand's target audience? Based on the creator's audience and the brand data, you need to carefully observe as a marketing specialist that how much is the creator's audience is aligned with the brand interests. You need to provide a proper reasoning on how did you concluded the score for this field.
 
 Return ONLY a JSON object in this exact format:
 {{

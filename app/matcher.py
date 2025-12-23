@@ -54,6 +54,7 @@ def recommend_creators_for_brand(
     # Initialize pipeline and ingest data if needed
     pipeline = IngestionPipeline()
     
+    skip_ingestion = True #tmp
     if not skip_ingestion:
         print("Ingesting data into MongoDB...")
         pipeline.ingest_creators(creators_data["creators"])

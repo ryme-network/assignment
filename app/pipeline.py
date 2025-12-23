@@ -2,10 +2,6 @@ from typing import List, Dict, Optional
 from embeddings.data_transformer import DataTransformer
 from embeddings.metadata_store import MetadataStore
 
-# ChromaDB imports commented out - kept for reference but not used
-# from app.embeddings.chroma_store import ChromaVectorStore
-
-
 class IngestionPipeline:
     """Orchestrates data ingestion into MongoDB only."""
 
@@ -64,17 +60,7 @@ class IngestionPipeline:
         brands: List[Dict],
         clear_existing: bool = True
     ) -> Dict[str, int]:
-        """
-        Refresh all data in MongoDB by clearing and re-ingesting.
-        
-        Args:
-            creators: List of creator dictionaries
-            brands: List of brand dictionaries
-            clear_existing: If True, delete all existing data before ingesting
-        
-        Returns:
-            Dictionary with ingestion statistics
-        """
+
         if clear_existing:
             print("Clearing existing data from MongoDB...")
             deleted = self.metadata_store.clear_all()
