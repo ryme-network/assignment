@@ -109,10 +109,11 @@ class DataTransformer:
 
             try:
                 prompt = f"""List the major cities included in "{location}" in India context. 
-Return only a comma-separated list of city names, no explanations. 
-Example: If input is "Tier 1 cities", return: Mumbai, Delhi, Bangalore, Hyderabad, Chennai, Kolkata, Pune
-Input: {location}
-Output:"""
+                Return only a comma-separated list of city names, no explanations. 
+                Example: If input is "Tier 1 cities", return all the Tier-1 urban cities like Mumbai, Delhi, Bangalore, 
+                Hyderabad, Chennai, Kolkata, Pune
+                Input: {location}
+                Output:"""
 
                 response = self.gemini_model.generate_content(prompt)
                 result = response.text.strip()
@@ -277,9 +278,116 @@ Output:"""
         # Extract engagement priority
         transformed["engagement_priority"] = creator_prefs.get("engagement_priority")
 
-        # Extract income level (can be normalized further if needed)
+        # Extract primary gender from target_audience
+        primary_gender = target_audience.get("primary_gender", "")
+        transformed["primary_gender"] = primary_gender  # Store the raw value
+        transformed["primary_gender_extracted"] = self._extract_primary_gender(primary_gender)
+
+        # Parse and categorize income level
         income_level = target_audience.get("income_level", "")
-        transformed["income_level_derived"] = income_level  # Keep as-is for now, can add parsing later
+        transformed["income_level_raw"] = income_level  # Keep original
+        transformed["income_level_category"] = self._parse_income_level_category(income_level)
 
         return transformed
+    
+    def _extract_primary_gender(self, primary_gender_str: str) -> Optional[str]:
+        """
+        Extract primary gender from string like "Female (70%), Male (30%)"
+        Returns "Female", "Male", or "Mixed" based on highest percentage
+        """
+        if not primary_gender_str:
+            return None
+        
+        primary_gender_str = primary_gender_str.lower()
+        
+        # Check for explicit percentages
+        pattern = r'(female|male)\s*\((\d+)%\)'
+        matches = re.findall(pattern, primary_gender_str)
+        
+        if matches:
+            # Find the gender with highest percentage
+            max_percent = 0
+            primary = None
+            for gender, percent_str in matches:
+                percent = int(percent_str)
+                if percent > max_percent:
+                    max_percent = percent
+                    primary = gender.capitalize()
+            return primary
+        
+        # Fallback: check which gender is mentioned first or most prominently
+        if "female" in primary_gender_str and "male" in primary_gender_str:
+            # If both mentioned, check percentages or default to first
+            if primary_gender_str.find("female") < primary_gender_str.find("male"):
+                return "Female"
+            else:
+                return "Male"
+        elif "female" in primary_gender_str:
+            return "Female"
+        elif "male" in primary_gender_str:
+            return "Male"
+        
+        return None
+    
+    def _parse_income_level_category(self, income_level_str: str) -> Optional[str]:
+        """
+        Parse income level string and return standardized category using LLM.
+        Categories: upper_middle_class, middle_class, affluent, lower_middle_class, etc.
+        
+        Examples:
+        - "Upper Middle Class (₹8L-₹20L annual income)" -> "upper_middle_class"
+        - "Upper Middle Class to Affluent (₹10L-₹30L+ annual income)" -> "affluent"
+        """
+        if not income_level_str:
+            return None
+        
+        # Use LLM directly for parsing (handles all cases including complex ones)
+        if not self.gemini_model:
+            print("Warning: Gemini model not available for income level parsing")
+            return None
+        
+        return self._parse_income_level_with_llm(income_level_str)
+    
+    def _parse_income_level_with_llm(self, income_level_str: str) -> Optional[str]:
+        """Parse income level using Gemini API."""
+        if not self.gemini_model:
+            return None
+        
+        try:
+            prompt = f"""Categorize this income level description into ONE of these standard categories:
+- affluent (high income, upper class, elite, premium)
+- upper_middle_class (upper middle class, ₹15L-₹30L range typically)
+- middle_class (middle class, ₹8L-₹15L range typically)
+- lower_middle_class (lower middle class, below ₹8L typically)
+
+Income level description: "{income_level_str}"
+
+If the description mentions multiple categories (e.g., "Upper Middle Class to Affluent"), choose the HIGHER category (affluent in this case).
+
+Return ONLY the category name, nothing else. Examples:
+- Input: "Upper Middle Class (₹8L-₹20L annual income)" → Output: upper_middle_class
+- Input: "Upper Middle Class to Affluent" → Output: affluent
+- Input: "Middle Class" → Output: middle_class
+
+Category:"""
+
+            response = self.gemini_model.generate_content(prompt)
+            result = response.text.strip().lower()
+            
+            # Clean up the response (remove any extra text, quotes, etc.)
+            result = result.replace('"', '').replace("'", '').strip()
+            
+            # Validate the result matches one of our categories
+            valid_categories = ['affluent', 'upper_middle_class', 'middle_class', 'lower_middle_class']
+            for category in valid_categories:
+                if category in result:
+                    return category
+            
+            # If LLM returned something else, return None
+            print(f"Warning: LLM returned unexpected income category: {result}")
+            return None
+            
+        except Exception as e:
+            print(f"Warning: Error using LLM to parse income level '{income_level_str}': {e}")
+            return None
 

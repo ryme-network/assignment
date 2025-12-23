@@ -48,6 +48,8 @@ class MetadataStore:
             self.brands_collection.create_index("locations_expanded")
             self.brands_collection.create_index("follower_range_min")
             self.brands_collection.create_index("follower_range_max")
+            self.brands_collection.create_index("primary_gender_extracted")
+            self.brands_collection.create_index("income_level_category")
         except Exception as e:
             print(f"Warning: Error creating indexes (may already exist): {e}")
 
