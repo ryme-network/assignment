@@ -58,6 +58,39 @@ class IngestionPipeline:
             "mongodb_brands": mongo_count
         }
 
+    def refresh_data(
+        self,
+        creators: List[Dict],
+        brands: List[Dict],
+        clear_existing: bool = True
+    ) -> Dict[str, int]:
+        """
+        Refresh all data in MongoDB by clearing and re-ingesting.
+        
+        Args:
+            creators: List of creator dictionaries
+            brands: List of brand dictionaries
+            clear_existing: If True, delete all existing data before ingesting
+        
+        Returns:
+            Dictionary with ingestion statistics
+        """
+        if clear_existing:
+            print("Clearing existing data from MongoDB...")
+            deleted = self.metadata_store.clear_all()
+            print(f"  Deleted {deleted['creators_deleted']} creators and {deleted['brands_deleted']} brands")
+        
+        print("Re-ingesting creators...")
+        creator_stats = self.ingest_creators(creators)
+        
+        print("Re-ingesting brands...")
+        brand_stats = self.ingest_brands(brands)
+        
+        return {
+            "mongodb_creators": creator_stats["mongodb_creators"],
+            "mongodb_brands": brand_stats["mongodb_brands"]
+        }
+
     def close(self):
         """Close all connections."""
         self.metadata_store.close()

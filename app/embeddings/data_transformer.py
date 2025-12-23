@@ -288,6 +288,16 @@ class DataTransformer:
         transformed["income_level_raw"] = income_level  # Keep original
         transformed["income_level_category"] = self._parse_income_level_category(income_level)
 
+        # Extract language from creator_preferences
+        language_pref = creator_prefs.get("language_preference", "")
+        transformed["languages"] = self._extract_languages_from_preference(language_pref)
+        transformed["language_preference_raw"] = language_pref
+
+        # Extract gender percentages from primary_gender string
+        gender_percentages = self._extract_gender_percentages(primary_gender)
+        transformed["gender_female_percent"] = gender_percentages.get("female", 0.0)
+        transformed["gender_male_percent"] = gender_percentages.get("male", 0.0)
+
         return transformed
     
     def _extract_primary_gender(self, primary_gender_str: str) -> Optional[str]:
@@ -390,4 +400,83 @@ Category:"""
         except Exception as e:
             print(f"Warning: Error using LLM to parse income level '{income_level_str}': {e}")
             return None
+    
+    def _extract_languages_from_preference(self, language_pref: str) -> List[str]:
+        """
+        Extract language list from language preference string.
+        Examples:
+        - "Bilingual Hindi + English preferred" -> ["Hindi", "English"]
+        - "Primarily English + Hindi for metro audience" -> ["English", "Hindi"]
+        """
+        if not language_pref:
+            return []
+        
+        languages = []
+        language_pref_lower = language_pref.lower()
+        
+        # Check for common language names
+        if "hindi" in language_pref_lower:
+            languages.append("Hindi")
+        if "english" in language_pref_lower:
+            languages.append("English")
+        if "tamil" in language_pref_lower:
+            languages.append("Tamil")
+        if "telugu" in language_pref_lower:
+            languages.append("Telugu")
+        if "bengali" in language_pref_lower or "bangla" in language_pref_lower:
+            languages.append("Bengali")
+        if "marathi" in language_pref_lower:
+            languages.append("Marathi")
+        if "gujarati" in language_pref_lower:
+            languages.append("Gujarati")
+        if "kannada" in language_pref_lower:
+            languages.append("Kannada")
+        if "malayalam" in language_pref_lower:
+            languages.append("Malayalam")
+        if "punjabi" in language_pref_lower:
+            languages.append("Punjabi")
+        
+        # If no languages found, default to Hindi and English for Indian market
+        if not languages:
+            languages = ["Hindi", "English"]
+        
+        return languages
+    
+    def _extract_gender_percentages(self, primary_gender_str: str) -> Dict[str, float]:
+        """
+        Extract gender percentages from string like "Female (70%), Male (30%)"
+        Returns dict with 'female' and 'male' percentages as decimals (0.0 to 1.0)
+        """
+        if not primary_gender_str:
+            return {"female": 0.0, "male": 0.0}
+        
+        primary_gender_str = primary_gender_str.lower()
+        gender_percentages = {"female": 0.0, "male": 0.0}
+        
+        # Extract percentages using regex
+        pattern = r'(female|male)\s*\((\d+)%\)'
+        matches = re.findall(pattern, primary_gender_str)
+        
+        for gender, percent_str in matches:
+            percent = int(percent_str) / 100.0  # Convert to decimal
+            gender_percentages[gender] = percent
+        
+        # If no percentages found, try to infer from text
+        if gender_percentages["female"] == 0.0 and gender_percentages["male"] == 0.0:
+            if "female" in primary_gender_str and "male" in primary_gender_str:
+                # Both mentioned but no percentages - assume 50/50 or check order
+                if primary_gender_str.find("female") < primary_gender_str.find("male"):
+                    gender_percentages["female"] = 0.6
+                    gender_percentages["male"] = 0.4
+                else:
+                    gender_percentages["female"] = 0.4
+                    gender_percentages["male"] = 0.6
+            elif "female" in primary_gender_str:
+                gender_percentages["female"] = 0.7
+                gender_percentages["male"] = 0.3
+            elif "male" in primary_gender_str:
+                gender_percentages["female"] = 0.3
+                gender_percentages["male"] = 0.7
+        
+        return gender_percentages
 

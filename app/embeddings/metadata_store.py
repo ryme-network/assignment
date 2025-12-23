@@ -50,6 +50,7 @@ class MetadataStore:
             self.brands_collection.create_index("follower_range_max")
             self.brands_collection.create_index("primary_gender_extracted")
             self.brands_collection.create_index("income_level_category")
+            self.brands_collection.create_index("languages")
         except Exception as e:
             print(f"Warning: Error creating indexes (may already exist): {e}")
 
@@ -162,6 +163,25 @@ class MetadataStore:
         for result in results:
             result.pop("_id", None)
         return results
+
+    def clear_creators(self) -> int:
+        """Delete all creators from the collection. Returns count of deleted documents."""
+        result = self.creators_collection.delete_many({})
+        return result.deleted_count
+
+    def clear_brands(self) -> int:
+        """Delete all brands from the collection. Returns count of deleted documents."""
+        result = self.brands_collection.delete_many({})
+        return result.deleted_count
+
+    def clear_all(self) -> Dict[str, int]:
+        """Clear both creators and brands collections. Returns count of deleted documents."""
+        creators_deleted = self.clear_creators()
+        brands_deleted = self.clear_brands()
+        return {
+            "creators_deleted": creators_deleted,
+            "brands_deleted": brands_deleted
+        }
 
     def close(self):
         """Close MongoDB connection."""
