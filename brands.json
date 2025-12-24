@@ -149,7 +149,7 @@
         "Transparency in nutrition",
         "Guilt-free indulgence",
         "Quality over everything"
-      },
+      ],
       "unique_selling_points": [
         "No added sugar, sweetened with dates/jaggery/stevia",
         "No gluten, no preservatives, no seed oils",
@@ -250,6 +250,1052 @@
         "product_samples": "Must send product samples for genuine reviews",
         "content_approval": "Taste/nutrition claims must be pre-approved",
         "exclusivity": "No promotion of direct competitor healthy dessert brands during campaign + 2 months"
+      }
+    },
+    {
+  "brand_id": "BR003",
+  "brand_name": "FitGear Pro",
+  "industry": "Gym & Fitness Utility Products",
+  "company_size": "Growth Stage (50-100 employees)",
+  "founded": 2019,
+  "website": "https://www.fitgearpro.in/",
+  "description": "FitGear Pro is India's premium gym utility brand, creating high-quality, durable fitness accessories for serious gym-goers. From premium gym towels and resistance bands to ergonomic gym bags and shaker bottles, we design products that enhance your workout experience. Built for performance, designed for the Indian fitness enthusiast who refuses to compromise on quality.",
+  "target_audience": {
+    "age_range": "18-35",
+    "primary_gender": "Male (55%), Female (45%)",
+    "locations": ["Mumbai", "Delhi NCR", "Bangalore", "Pune", "Hyderabad", "Chennai", "Tier 1 cities"],
+    "income_level": "Middle Class to Upper Middle Class (₹6L-₹25L annual income)",
+    "interests": [
+      "Fitness and gym training",
+      "Bodybuilding and strength training",
+      "Health and wellness",
+      "Active lifestyle",
+      "Sports and athletics",
+      "Personal development and self-improvement"
+    ],
+    "psychographics": "Dedicated gym-goers and fitness enthusiasts who train 3-5 times a week. Value quality, durability, and performance over price. They invest in their fitness journey and see gym accessories as essential tools, not luxuries. Active on fitness communities, follow workout routines, and are influenced by fitness influencers and trainers."
+  },
+  "brand_values": [
+    "Performance over aesthetics",
+    "Durability and quality craftsmanship",
+    "Designed for Indian gym conditions",
+    "Value for money without compromising quality",
+    "Supporting the fitness community"
+  ],
+  "unique_selling_points": [
+    "Premium quality at accessible prices",
+    "India-specific design (sweat-resistant, quick-dry materials)",
+    "Durable construction - products last 2-3x longer than competitors",
+    "Ergonomic designs tested by professional trainers",
+    "Wide range: gym towels, resistance bands, gym bags, shaker bottles, gym gloves",
+    "Available online and in 200+ gym retail stores across metros",
+    "1-year warranty on all products"
+  ],
+  "campaign_goals": {
+    "primary_objective": "Increase brand awareness among active gym-goers and drive online sales",
+    "secondary_objective": "Position as the go-to brand for quality gym accessories in India",
+    "campaign_type": "Product demonstration + lifestyle integration + performance messaging",
+    "key_messages": [
+      "Gear up for greatness - quality tools for serious training",
+      "Built to last, designed to perform",
+      "Your fitness journey deserves the best equipment",
+      "From gym floor to home workouts - we've got you covered"
+    ],
+    "target_metrics": {
+      "reach": "3-4 million impressions",
+      "engagement": "80,000+ engaged users",
+      "conversions": "5,000+ purchases via creator discount codes",
+      "repeat_rate": "25% repeat purchase within 90 days"
+    }
+  },
+  "creator_preferences": {
+    "follower_range": "100K-600K (mid-tier to macro influencers with fitness credibility)",
+    "engagement_priority": "High engagement critical - need active fitness community",
+    "content_authenticity": "Must be genuine gym-goers who train regularly and can demonstrate product usage in real workouts. Should show actual gym sessions, not just lifestyle shots.",
+    "platforms": ["Instagram", "YouTube"],
+    "content_style": "Authentic gym content, workout demonstrations, product reviews in action, transformation journeys, fitness tips, honest performance reviews",
+    "niche_alignment": [
+      "Fitness and bodybuilding",
+      "Gym training and workouts",
+      "Strength training",
+      "Home fitness and calisthenics",
+      "Fitness transformation journeys",
+      "Personal trainers and coaches",
+      "Athletics and sports performance"
+    ],
+    "language_preference": "Bilingual Hindi + English preferred, regional languages (Tamil, Telugu) for South India",
+    "must_avoid": [
+      "Creators who don't actually go to gym or train",
+      "Pure lifestyle/beauty content without fitness focus",
+      "Creators promoting competing gym equipment brands",
+      "Overly commercial or scripted content",
+      "Creators with fake engagement or bought followers"
+    ]
+  },
+  "budget": {
+    "campaign_budget": "₹35,00,000",
+    "per_creator_range": "₹2,00,000 - ₹8,00,000",
+    "number_of_creators": "6-10 creators",
+    "product_seeding_budget": "₹5,00,000",
+    "performance_bonus": "15% additional for meeting sales targets",
+    "affiliate_commission": "10% on all orders from creator codes"
+  },
+  "past_successful_partnerships": [
+    "Fitness influencers showing gym routines with our products",
+    "Bodybuilding athletes and competitors",
+    "Personal trainers demonstrating workout techniques",
+    "Transformation journey creators",
+    "Home fitness content creators"
+  ],
+  "avoid_partnerships_with": [
+    "Creators promoting competing gym equipment brands",
+    "Pure supplement-focused creators without training content",
+    "Creators who don't show actual gym training",
+    "Fake transformation or misleading fitness content",
+    "Creators with poor engagement despite high follower count"
+  ],
+  "brand_voice": "Motivational, authentic, performance-focused, community-driven, slightly aspirational but relatable, no-nonsense approach to fitness",
+  "content_guidelines": {
+    "must_include": [
+      "Actual product usage during gym workouts",
+      "Performance demonstrations (durability, functionality)",
+      "Before/after comparisons showing product benefits",
+      "Integration in real training routines",
+      "Honest reviews about product quality and durability",
+      "Gym environment shots (not just lifestyle)"
+    ],
+    "must_avoid": [
+      "Overly staged or fake workout scenarios",
+      "Making false performance claims",
+      "Comparing negatively with competitors",
+      "Pure product placement without context",
+      "Medical or health claims beyond product features"
+    ]
+  },
+  "indian_market_context": {
+    "challenges": [
+      "Price sensitivity - need to justify premium over local alternatives",
+      "Trust in online quality - need to prove durability",
+      "Competition from international brands and local manufacturers",
+      "Seasonal demand variations (monsoon affects gym attendance)"
+    ],
+    "opportunities": [
+      "Rising gym culture in Tier 1 and Tier 2 cities",
+      "Home fitness trend post-pandemic",
+      "Growing awareness of quality gym accessories",
+      "Fitness influencer ecosystem expansion",
+      "Increasing disposable income in target demographic",
+      "Corporate wellness programs"
+    ]
+  },
+  "special_requirements": {
+    "product_samples": "Must send full product range for creators to test and review",
+    "content_approval": "Workout demonstrations must be safe and follow proper form",
+    "exclusivity": "No promotion of direct competitor gym accessory brands during campaign + 3 months",
+    "gym_access": "Creators should have access to gym for authentic content creation"
+  }
+    },
+    {
+      "brand_id": "BR004",
+      "brand_name": "Silver Screen Studios",
+      "industry": "Film Production & Movie Promotion",
+      "company_size": "Mid-size (100-200 employees)",
+      "founded": 2015,
+      "website": "https://www.silverscreenstudios.in/",
+      "description": "Silver Screen Studios is a leading Indian movie production company focused on creating mainstream, high-quality cinema for theatrical and OTT audiences. With a strong portfolio of commercial and content-driven films, the studio leverages digital creators and influencer-led promotions to drive hype, audience engagement, and box office success.",
+      "target_audience": {
+        "age_range": "18-45",
+        "primary_gender": "Male (85%), Female (15%)",
+        "locations": ["Mumbai", "Delhi NCR", "Bangalore", "Hyderabad", "Chennai", "Tier 1 cities"],
+        "income_level": "Middle Class to Upper Middle Class (₹5L-₹25L annual income)",
+        "interests": [
+          "Movies and cinema",
+          "Film reviews and analysis",
+          "Bollywood and regional films",
+          "OTT platforms",
+          "Entertainment news and celebrity culture",
+          "Trailer breakdowns and movie discussions"
+        ],
+        "psychographics": "Urban movie enthusiasts who actively follow film releases, trailers, and reviews before deciding what to watch. They enjoy in-depth movie analysis, honest opinions, and behind-the-scenes content. Strongly influenced by trusted reviewers and creators when choosing theatrical or OTT releases."
+      },
+      "brand_values": [
+        "Storytelling excellence",
+        "Audience-first entertainment",
+        "Authentic cinema conversations",
+        "Supporting quality film criticism",
+        "Celebrating Indian cinema"
+      ],
+      "unique_selling_points": [
+        "Big-budget theatrical releases with strong storytelling",
+        "Star-led and content-driven films",
+        "Strategic digital-first movie promotions",
+        "Exclusive creator access (screenings, interviews, BTS)",
+        "Strong presence across theatrical and OTT platforms"
+      ],
+      "campaign_goals": {
+        "primary_objective": "Drive movie awareness and footfall for theatrical and OTT releases",
+        "secondary_objective": "Build strong pre-release buzz and positive word-of-mouth",
+        "campaign_type": "Movie review amplification + trailer reactions + discussion-based promotion",
+        "key_messages": [
+          "A must-watch cinematic experience",
+          "Strong performances and engaging storytelling",
+          "Worth watching in theatres / on OTT"
+        ],
+        "target_metrics": {
+          "reach": "5-7 million impressions",
+          "engagement": "1,00,000+ engaged users",
+          "conversions": "High intent signals via ticket booking clicks and OTT views"
+        }
+      },
+      "creator_preferences": {
+        "follower_range": "150K-1M (mid-tier to macro movie reviewers)",
+        "engagement_priority": "High credibility and audience trust more important than pure reach",
+        "content_authenticity": "Creators must have a strong reputation for honest movie reviews and film discussions",
+        "platforms": ["YouTube", "Instagram", "X"],
+        "content_style": "Movie reviews, trailer reactions, spoiler-free analysis, audience polls, discussion-driven content",
+        "niche_alignment": [
+          "Movie reviewers and critics",
+          "Cinema analysis channels",
+          "Entertainment news creators",
+          "Film discussion and breakdown channels"
+        ],
+        "language_preference": "Hindi + English preferred, regional language reviewers for dubbed/regional releases",
+        "must_avoid": [
+          "Creators known for paid-positive reviews only",
+          "Non-entertainment lifestyle influencers",
+          "Creators with controversial or toxic fanbases"
+        ]
+      },
+      "budget": {
+        "campaign_budget": "₹60,00,000",
+        "per_creator_range": "₹3,00,000 - ₹15,00,000",
+        "number_of_creators": "8-12 creators",
+        "screening_events_budget": "₹10,00,000"
+      },
+      "past_successful_partnerships": [
+        "Top YouTube movie reviewers",
+        "Cinema analysis channels",
+        "Entertainment journalists turned creators",
+        "Regional film reviewers"
+      ],
+      "avoid_partnerships_with": [
+        "Creators demanding script approval of reviews",
+        "Non-movie related influencers",
+        "Creators with low audience trust"
+      ],
+      "brand_voice": "Confident, cinematic, audience-focused, respectful of honest opinions, hype-driven but grounded",
+      "content_guidelines": {
+        "must_include": [
+          "Clear disclosure of paid collaboration",
+          "Spoiler-free reviews before release",
+          "Honest opinions and discussion points",
+          "Trailer or scene references where applicable"
+        ],
+        "must_avoid": [
+          "Forced positive narratives",
+          "Spoilers without warning",
+          "Over-scripted reviews",
+          "Misleading claims about the film"
+        ]
+      },
+      "indian_market_context": {
+        "challenges": [
+          "Audience skepticism towards paid reviews",
+          "High competition during release weekends",
+          "Short theatrical attention window"
+        ],
+        "opportunities": [
+          "Strong influence of movie reviewers in India",
+          "Rise of discussion-based YouTube cinema channels",
+          "Growing Tier 1 audience for content-driven films"
+        ]
+      }
+    },
+    {
+      "brand_id": "BR005",
+      "brand_name": "GameSphere India",
+      "industry": "Gaming & Esports Platform",
+      "company_size": "Growth Stage (80-150 employees)",
+      "founded": 2018,
+      "website": "https://www.gamesphere.gg/",
+      "description": "GameSphere India is a leading gaming and esports platform focused on competitive gaming, live streams, tournaments, and gaming communities. Catering to India's fast-growing gamer population, GameSphere collaborates with top gaming creators to promote games, hardware, and esports events across PC, console, and mobile gaming ecosystems.",
+      "target_audience": {
+        "age_range": "16-35",
+        "primary_gender": "Male (75%), Female (25%)",
+        "locations": ["Mumbai", "Delhi NCR", "Bangalore", "Hyderabad", "Pune", "Chennai", "Tier 1 cities"],
+        "income_level": "Lower Middle Class to Upper Middle Class (₹3L-₹20L annual income)",
+        "interests": [
+          "Online and competitive gaming",
+          "Esports tournaments",
+          "PC, console, and mobile games",
+          "Game streaming and live gameplay",
+          "Gaming gear and setups",
+          "Gaming communities and clans"
+        ],
+        "psychographics": "Young, digitally native gamers who spend significant time watching and playing games. Highly influenced by gaming creators and streamers. Value skill, entertainment, and community. Open to brand integrations when they feel organic to gaming content."
+      },
+      "brand_values": [
+        "Community-first gaming",
+        "Fair play and skill-based competition",
+        "Supporting Indian gaming talent",
+        "Entertainment-driven gaming content",
+        "Accessibility for all gamers"
+      ],
+      "unique_selling_points": [
+        "India-focused gaming and esports platform",
+        "Regular online and offline tournaments",
+        "Strong creator and streamer ecosystem",
+        "Multi-platform support (PC, console, mobile)",
+        "Large active gaming community"
+      ],
+      "campaign_goals": {
+        "primary_objective": "Increase platform adoption and engagement among Indian gamers",
+        "secondary_objective": "Position GameSphere as a hub for competitive gaming and esports",
+        "campaign_type": "Gameplay integration + live streaming + tournament promotion",
+        "key_messages": [
+          "Play. Compete. Win.",
+          "Where Indian gamers come together",
+          "Level up your gaming experience"
+        ],
+        "target_metrics": {
+          "reach": "6-8 million impressions",
+          "engagement": "1,50,000+ engaged users",
+          "conversions": "50,000+ new sign-ups and app installs"
+        }
+      },
+      "creator_preferences": {
+        "follower_range": "200K-2M (gaming streamers and creators)",
+        "engagement_priority": "Live audience interaction and watch time critical",
+        "content_authenticity": "Creators must actively play games and engage live with their audience",
+        "platforms": ["YouTube", "Instagram", "Discord"],
+        "content_style": "Live gameplay, tournament streams, reaction clips, community challenges, skill-based content",
+        "niche_alignment": [
+          "Gaming streamers",
+          "Esports athletes",
+          "Competitive gaming creators",
+          "Mobile and PC gaming channels"
+        ],
+        "language_preference": "Hindi + English preferred, regional language creators for mass reach",
+        "must_avoid": [
+          "Non-gaming lifestyle creators",
+          "Creators with toxic or abusive communities",
+          "Fake gameplay or plagiarized content"
+        ]
+      },
+      "budget": {
+        "campaign_budget": "₹50,00,000",
+        "per_creator_range": "₹2,00,000 - ₹12,00,000",
+        "number_of_creators": "10-15 creators",
+        "tournament_prize_pool": "₹15,00,000"
+      },
+      "past_successful_partnerships": [
+        "Top Indian gaming YouTubers",
+        "Esports teams and players",
+        "Mobile gaming streamers",
+        "Community-based gaming creators"
+      ],
+      "avoid_partnerships_with": [
+        "Creators involved in cheating scandals",
+        "Non-gaming content creators",
+        "Creators with poor live engagement"
+      ],
+      "brand_voice": "Energetic, competitive, youth-focused, community-driven, fun and hype-oriented",
+      "content_guidelines": {
+        "must_include": [
+          "Live gameplay or real game footage",
+          "Clear platform or event call-to-action",
+          "Audience interaction (polls, chat, challenges)",
+          "Fair play and community guidelines mention"
+        ],
+        "must_avoid": [
+          "Fake wins or staged gameplay",
+          "Encouraging toxic behavior",
+          "Over-commercialized brand placements",
+          "Misleading prize or reward claims"
+        ]
+      },
+      "indian_market_context": {
+        "challenges": [
+          "High competition in gaming platforms",
+          "Monetization sensitivity among younger audiences",
+          "Device and internet limitations for some users"
+        ],
+        "opportunities": [
+          "Rapid growth of gaming and esports in India",
+          "Strong creator influence in gaming decisions",
+          "Increasing acceptance of gaming as a career",
+          "Expanding Tier 1 esports ecosystem"
+        ]
+      }
+    },
+    {
+      "brand_id": "BR006",
+      "brand_name": "InkRiver Publishing",
+      "industry": "Book Publishing & Literary Media",
+      "company_size": "Mid-size (60-120 employees)",
+      "founded": 2012,
+      "website": "https://www.inkriverpublishing.in/",
+      "description": "InkRiver Publishing is a modern Indian publishing house focused on fiction, non-fiction, and contemporary literature. With a strong emphasis on storytelling, author discovery, and reader communities, InkRiver actively collaborates with book reviewers, literary creators, and reading communities to promote books organically.",
+      "target_audience": {
+        "age_range": "18-45",
+        "primary_gender": "Female (60%), Male (40%)",
+        "locations": ["Mumbai", "Delhi NCR", "Bangalore", "Pune", "Chennai", "Tier 1 cities"],
+        "income_level": "Middle Class to Upper Middle Class (₹4L-₹20L annual income)",
+        "interests": [
+          "Book reading and literature",
+          "Book reviews and recommendations",
+          "Fiction and non-fiction",
+          "Writing and storytelling",
+          "Author interviews and literary festivals"
+        ],
+        "psychographics": "Avid readers who actively seek recommendations before purchasing books. Enjoy discovering new authors, participating in reading challenges, and engaging with bookish communities online. Value honest reviews, aesthetics, and emotional connection to stories."
+      },
+      "brand_values": [
+        "Championing great stories",
+        "Author-first publishing",
+        "Community-driven reading culture",
+        "Diversity in voices",
+        "Quality over quantity"
+      ],
+      "unique_selling_points": [
+        "Strong focus on debut Indian authors",
+        "Wide genre range: fiction, memoirs, business, poetry",
+        "Reader-first marketing approach",
+        "Active engagement with book communities",
+        "National distribution across online and offline channels"
+      ],
+      "campaign_goals": {
+        "primary_objective": "Increase book awareness and drive sales for new releases",
+        "secondary_objective": "Build long-term trust with book reviewers and reading communities",
+        "campaign_type": "Book reviews + reading vlogs + author interactions",
+        "key_messages": [
+          "Stories worth your time",
+          "Discover your next favorite book",
+          "Supporting Indian authors"
+        ],
+        "target_metrics": {
+          "reach": "1.5-2 million impressions",
+          "engagement": "50,000+ engaged readers",
+          "conversions": "8,000+ book purchases via creator links"
+        }
+      },
+      "creator_preferences": {
+        "follower_range": "30K-300K (micro to mid-tier book creators)",
+        "engagement_priority": "High trust and consistent reader engagement",
+        "content_authenticity": "Creators must genuinely read and discuss books, not just aesthetic posts",
+        "platforms": ["Instagram", "YouTube"],
+        "content_style": "Book reviews, reading vlogs, bookshelf tours, aesthetic reels, reading challenges",
+        "niche_alignment": [
+          "Book reviewers",
+          "Bookstagram and BookTube creators",
+          "Literary bloggers",
+          "Reading challenge creators"
+        ],
+        "language_preference": "English primarily, Hindi for select Indian titles",
+        "must_avoid": [
+          "Creators who don't complete books",
+          "Pure aesthetic content without reviews",
+          "Paid-only positive reviewers"
+        ]
+      },
+      "budget": {
+        "campaign_budget": "₹15,00,000",
+        "per_creator_range": "₹30,000 - ₹2,00,000",
+        "number_of_creators": "10-15 creators",
+        "book_seeding_budget": "₹3,00,000"
+      },
+      "past_successful_partnerships": [
+        "Bookstagram reviewers",
+        "Literary bloggers",
+        "BookTube reading vloggers"
+      ],
+      "avoid_partnerships_with": [
+        "Creators who resell ARCs",
+        "Creators demanding scripted reviews",
+        "Non-reading lifestyle influencers"
+      ],
+      "brand_voice": "Warm, intellectual, inclusive, story-driven, reader-first",
+      "content_guidelines": {
+        "must_include": [
+          "Honest opinions",
+          "Book synopsis discussion",
+          "Reading experience highlights",
+          "Clear disclosure of collaboration"
+        ],
+        "must_avoid": [
+          "Spoilers without warning",
+          "Scripted praise",
+          "Misrepresentation of genre"
+        ]
+      },
+      "indian_market_context": {
+        "challenges": [
+          "Low reading habit outside metros",
+          "High competition from international publishers"
+        ],
+        "opportunities": [
+          "Rise of Bookstagram in India",
+          "Growing interest in Indian authors",
+          "Young adult fiction growth"
+        ]
+      }
+    },
+    {
+      "brand_id": "BR007",
+      "brand_name": "DermaRoot",
+      "industry": "Dermatologist-Backed Skincare",
+      "company_size": "Startup (25-50 employees)",
+      "founded": 2022,
+      "website": "https://www.dermaroot.in/",
+      "description": "DermaRoot is a dermatologist-backed Indian skincare brand focused on science-led, barrier-friendly formulations. Designed for Indian skin and climate, DermaRoot offers targeted solutions for acne, pigmentation, sensitivity, and barrier repair.",
+      "target_audience": {
+        "age_range": "18-40",
+        "primary_gender": "Female (65%), Male (35%)",
+        "locations": ["Mumbai", "Delhi NCR", "Bangalore", "Hyderabad", "Tier 1 cities"],
+        "income_level": "Middle Class to Upper Middle Class (₹5L-₹18L annual income)",
+        "interests": [
+          "Skincare routines",
+          "Dermatology-backed products",
+          "Acne and pigmentation care",
+          "Ingredient education",
+          "Skin barrier repair"
+        ],
+        "psychographics": "Ingredient-conscious skincare users who research products before buying. Prefer science-backed solutions over trends. Value transparency, dermatologist opinions, and visible skin improvement."
+      },
+      "brand_values": [
+        "Science over hype",
+        "Skin barrier first",
+        "Ingredient transparency",
+        "Dermatologist trust",
+        "Results with consistency"
+      ],
+      "unique_selling_points": [
+        "Dermatologist-formulated products",
+        "pH-balanced for Indian skin",
+        "No fragrance, no essential oils",
+        "Clinically tested actives",
+        "Climate-adapted formulations"
+      ],
+      "campaign_goals": {
+        "primary_objective": "Build trust and education-led adoption",
+        "secondary_objective": "Drive repeat purchases via routines",
+        "campaign_type": "Routine education + before/after journeys",
+        "key_messages": [
+          "Healthy skin starts with science",
+          "Repair your skin barrier",
+          "Consistency over quick fixes"
+        ],
+        "target_metrics": {
+          "reach": "2 million impressions",
+          "engagement": "70,000+ engaged users",
+          "conversions": "4,000+ first-time buyers"
+        }
+      },
+      "creator_preferences": {
+        "follower_range": "80K-400K",
+        "engagement_priority": "Educational depth and credibility",
+        "content_authenticity": "Creators must understand ingredients and routines",
+        "platforms": ["Instagram", "YouTube"],
+        "content_style": "Routine breakdowns, ingredient education, skin journeys",
+        "niche_alignment": [
+          "Skincare educators",
+          "Dermatologist creators",
+          "Acne journey creators"
+        ],
+        "language_preference": "English + Hindi",
+        "must_avoid": [
+          "Trend-hopping skincare creators",
+          "Misleading claims",
+          "Filters hiding real skin"
+        ]
+      },
+      "budget": {
+        "campaign_budget": "₹30,00,000",
+        "per_creator_range": "₹1,00,000 - ₹6,00,000",
+        "number_of_creators": "6-8 creators",
+        "product_seeding_budget": "₹4,00,000"
+      },
+      "past_successful_partnerships": [
+        "Skincare educators",
+        "Dermatologist influencers"
+      ],
+      "avoid_partnerships_with": [
+        "Luxury-only beauty creators",
+        "Creators promoting unsafe DIY skincare"
+      ],
+      "brand_voice": "Calm, clinical, reassuring, educational",
+      "content_guidelines": {
+        "must_include": [
+          "Ingredient explanations",
+          "Routine usage",
+          "Real skin visuals"
+        ],
+        "must_avoid": [
+          "Instant results claims",
+          "Over-editing"
+        ]
+      },
+      "indian_market_context": {
+        "challenges": [
+          "Ingredient misinformation",
+          "Short attention spans"
+        ],
+        "opportunities": [
+          "Rise of skin education",
+          "Trust in dermatologist-led brands"
+        ]
+      }
+    },
+    {
+      "brand_id": "BR008",
+      "brand_name": "GlowVeda",
+      "industry": "Ayurvedic & Modern Skincare",
+      "company_size": "Growth Stage (70-120 employees)",
+      "founded": 2020,
+      "website": "https://www.glowveda.in/",
+      "description": "GlowVeda blends time-tested Ayurvedic wisdom with modern dermatological science to create gentle yet effective skincare solutions for Indian skin. The brand focuses on long-term skin health using clinically validated natural ingredients, free from harsh chemicals.",
+      "target_audience": {
+        "age_range": "20-45",
+        "primary_gender": "Female (70%), Male (30%)",
+        "locations": ["Mumbai", "Delhi NCR", "Bangalore", "Pune", "Hyderabad", "Tier 1 cities"],
+        "income_level": "Middle Class to Upper Middle Class (₹4L-₹18L annual income)",
+        "interests": [
+          "Ayurvedic skincare",
+          "Natural beauty routines",
+          "Ingredient-conscious skincare",
+          "Sensitive skin solutions",
+          "Holistic wellness"
+        ],
+        "psychographics": "Consumers who prefer natural and holistic skincare but still want visible results. They are cautious of harsh actives, follow ingredient education content, and value brands that balance tradition with science."
+      },
+      "brand_values": [
+        "Ayurveda with scientific validation",
+        "Gentle, long-term skin health",
+        "Transparency in sourcing and formulation",
+        "Clean and conscious beauty",
+        "Indian skin and climate first"
+      ],
+      "unique_selling_points": [
+        "Ayurvedic ingredients backed by modern testing",
+        "No parabens, sulfates, or synthetic fragrance",
+        "Formulated for Indian climate and skin concerns",
+        "Focus on skin barrier and balance",
+        "Cruelty-free and eco-conscious packaging"
+      ],
+      "campaign_goals": {
+        "primary_objective": "Build trust and credibility in holistic skincare",
+        "secondary_objective": "Drive routine-based product adoption",
+        "campaign_type": "Education-led skincare routines + skin journey storytelling",
+        "key_messages": [
+          "Nature powered by science",
+          "Gentle care for lasting glow",
+          "Healthy skin is balanced skin"
+        ],
+        "target_metrics": {
+          "reach": "2-2.5 million impressions",
+          "engagement": "60,000+ engaged users",
+          "conversions": "3,500+ first-time buyers"
+        }
+      },
+      "creator_preferences": {
+        "follower_range": "60K-350K (micro to mid-tier creators)",
+        "engagement_priority": "Education-driven engagement over virality",
+        "content_authenticity": "Creators must genuinely follow natural or mindful skincare routines",
+        "platforms": ["Instagram", "YouTube"],
+        "content_style": "Routine videos, ingredient explainers, calm aesthetic reels, skin journeys",
+        "niche_alignment": [
+          "Skincare educators",
+          "Ayurvedic wellness creators",
+          "Sensitive skin journey creators",
+          "Minimalist beauty influencers"
+        ],
+        "language_preference": "Hindi + English preferred",
+        "must_avoid": [
+          "Overly glam beauty creators",
+          "Harsh actives promoters",
+          "Misleading miracle claims"
+        ]
+      },
+      "budget": {
+        "campaign_budget": "₹28,00,000",
+        "per_creator_range": "₹75,000 - ₹5,00,000",
+        "number_of_creators": "8-10 creators",
+        "product_seeding_budget": "₹3,50,000"
+      },
+      "past_successful_partnerships": [
+        "Ayurvedic skincare educators",
+        "Sensitive skin creators",
+        "Holistic wellness influencers"
+      ],
+      "avoid_partnerships_with": [
+        "Creators promoting unsafe DIY remedies",
+        "Heavy makeup-only creators",
+        "Instant glow claim promoters"
+      ],
+      "brand_voice": "Calm, nurturing, educational, rooted yet modern",
+      "content_guidelines": {
+        "must_include": [
+          "Ingredient sourcing explanations",
+          "Daily routine integration",
+          "Real skin texture visibility"
+        ],
+        "must_avoid": [
+          "Over-filtered content",
+          "Instant transformation claims",
+          "Medical promises"
+        ]
+      },
+      "indian_market_context": {
+        "challenges": [
+          "Skepticism about efficacy of natural skincare",
+          "Crowded ayurvedic beauty space"
+        ],
+        "opportunities": [
+          "Growing trust in Ayurveda",
+          "Rising ingredient awareness",
+          "Demand for gentle skincare"
+        ]
+      }
+    },
+    {
+      "brand_id": "BR009",
+      "brand_name": "ShaadiCraft",
+      "industry": "Luxury Wedding Planning & Design",
+      "company_size": "Mid-size (40-80 employees)",
+      "founded": 2016,
+      "website": "https://www.shaadicraft.in/",
+      "description": "ShaadiCraft is a premium wedding planning and design company specializing in bespoke Indian weddings. From intimate destination weddings to grand multi-day celebrations, ShaadiCraft curates personalized experiences with a strong focus on aesthetics, storytelling, and flawless execution.",
+      "target_audience": {
+        "age_range": "25-40",
+        "primary_gender": "Female (65%), Male (35%)",
+        "locations": ["Mumbai", "Delhi NCR", "Jaipur", "Udaipur", "Goa", "Tier 1 cities"],
+        "income_level": "Upper Middle Class to Affluent (₹15L-₹50L+ annual income)",
+        "interests": [
+          "Wedding planning and decor",
+          "Luxury experiences",
+          "Destination weddings",
+          "Bridal fashion and styling",
+          "Event aesthetics"
+        ],
+        "psychographics": "Modern couples and families seeking stress-free, visually stunning weddings. They value personalization, premium service, and Instagram-worthy moments. Willing to invest in planners who can manage end-to-end execution."
+      },
+      "brand_values": [
+        "Personalized storytelling",
+        "Attention to detail",
+        "Stress-free planning",
+        "Premium vendor curation",
+        "Memorable guest experiences"
+      ],
+      "unique_selling_points": [
+        "End-to-end wedding planning",
+        "Strong design and decor expertise",
+        "Trusted vendor ecosystem",
+        "Destination wedding specialization",
+        "Highly personalized wedding themes"
+      ],
+      "campaign_goals": {
+        "primary_objective": "Generate high-intent wedding planning leads",
+        "secondary_objective": "Build aspiration and brand recall among engaged couples",
+        "campaign_type": "Portfolio showcase + behind-the-scenes planning content",
+        "key_messages": [
+          "Your story, beautifully celebrated",
+          "Weddings without worry",
+          "Designed to remember forever"
+        ],
+        "target_metrics": {
+          "reach": "1.8-2.5 million impressions",
+          "engagement": "45,000+ engaged users",
+          "conversions": "300+ qualified wedding inquiries"
+        }
+      },
+      "creator_preferences": {
+        "follower_range": "100K-600K (wedding and lifestyle creators)",
+        "engagement_priority": "High save and share rates",
+        "content_authenticity": "Creators must showcase real weddings or planning journeys",
+        "platforms": ["Instagram", "YouTube"],
+        "content_style": "Wedding reels, decor walkthroughs, BTS planning, bride journeys",
+        "niche_alignment": [
+          "Wedding content creators",
+          "Bridal influencers",
+          "Luxury lifestyle creators",
+          "Event design pages"
+        ],
+        "language_preference": "English + Hindi",
+        "must_avoid": [
+          "Low-budget DIY-only creators",
+          "Fake or staged weddings",
+          "Creators without wedding niche credibility"
+        ]
+      },
+      "budget": {
+        "campaign_budget": "₹45,00,000",
+        "per_creator_range": "₹2,00,000 - ₹10,00,000",
+        "number_of_creators": "5-7 creators",
+        "content_production_budget": "₹8,00,000"
+      },
+      "past_successful_partnerships": [
+        "Bridal fashion creators",
+        "Wedding photographers",
+        "Luxury lifestyle influencers"
+      ],
+      "avoid_partnerships_with": [
+        "Creators misrepresenting wedding budgets",
+        "Generic lifestyle influencers",
+        "Unverified event pages"
+      ],
+      "brand_voice": "Elegant, reassuring, aspirational, detail-oriented",
+      "content_guidelines": {
+        "must_include": [
+          "Real wedding footage",
+          "Design and decor storytelling",
+          "Planning process highlights"
+        ],
+        "must_avoid": [
+          "Misleading cost representation",
+          "Overly scripted narratives",
+          "Stock visuals"
+        ]
+      },
+      "indian_market_context": {
+        "challenges": [
+          "Highly competitive wedding planning space",
+          "Budget sensitivity vs luxury expectations"
+        ],
+        "opportunities": [
+          "Rise of destination weddings",
+          "Instagram-driven wedding inspiration",
+          "Growing planner dependency"
+        ]
+      }
+    },
+    {
+      "brand_id": "BR010",
+      "brand_name": "WanderRoots",
+      "industry": "Experiential Travel & Holidays",
+      "company_size": "Growth Stage (60-100 employees)",
+      "founded": 2017,
+      "website": "https://www.wanderroots.in/",
+      "description": "WanderRoots curates immersive travel experiences focused on culture, nature, and local connection. From offbeat domestic destinations to international experiential trips, the brand emphasizes slow travel, authentic stays, and meaningful journeys.",
+      "target_audience": {
+        "age_range": "22-45",
+        "primary_gender": "Male (55%), Female (45%)",
+        "locations": ["Mumbai", "Delhi NCR", "Bangalore", "Pune", "Hyderabad", "Tier 1 cities"],
+        "income_level": "Middle Class to Upper Middle Class (₹6L-₹25L annual income)",
+        "interests": [
+          "Travel and exploration",
+          "Offbeat destinations",
+          "Cultural experiences",
+          "Nature and adventure travel",
+          "Photography and storytelling"
+        ],
+        "psychographics": "Experience-driven travelers who prefer meaningful journeys over luxury tourism. They seek local immersion, unique itineraries, and trusted travel curation. Influenced by authentic travel creators rather than commercial ads."
+      },
+      "brand_values": [
+        "Experience over luxury",
+        "Responsible tourism",
+        "Local community support",
+        "Authentic storytelling",
+        "Slow and mindful travel"
+      ],
+      "unique_selling_points": [
+        "Curated offbeat itineraries",
+        "Local guides and experiences",
+        "Small group travel",
+        "Focus on sustainability",
+        "Balanced adventure and comfort"
+      ],
+      "campaign_goals": {
+        "primary_objective": "Drive bookings for curated travel experiences",
+        "secondary_objective": "Build brand aspiration among urban travelers",
+        "campaign_type": "Travel storytelling + itinerary showcases",
+        "key_messages": [
+          "Travel deeper, not farther",
+          "Journeys that stay with you",
+          "See places through local eyes"
+        ],
+        "target_metrics": {
+          "reach": "3-4 million impressions",
+          "engagement": "90,000+ engaged users",
+          "conversions": "1,200+ trip inquiries and bookings"
+        }
+      },
+      "creator_preferences": {
+        "follower_range": "120K-800K (travel creators)",
+        "engagement_priority": "High storytelling quality and save rates",
+        "content_authenticity": "Creators must travel and document real experiences",
+        "platforms": ["Instagram", "YouTube"],
+        "content_style": "Cinematic reels, travel vlogs, itinerary breakdowns, local culture stories",
+        "niche_alignment": [
+          "Travel vloggers",
+          "Offbeat travel creators",
+          "Adventure travelers",
+          "Culture-focused storytellers"
+        ],
+        "language_preference": "English + Hindi",
+        "must_avoid": [
+          "Pure luxury hotel content creators",
+          "Stock footage users",
+          "Creators with misleading travel claims"
+        ]
+      },
+      "budget": {
+        "campaign_budget": "₹38,00,000",
+        "per_creator_range": "₹1,50,000 - ₹9,00,000",
+        "number_of_creators": "6-9 creators",
+        "travel_sponsorship_budget": "₹12,00,000"
+      },
+      "past_successful_partnerships": [
+        "Travel vloggers",
+        "Adventure photographers",
+        "Slow travel creators"
+      ],
+      "avoid_partnerships_with": [
+        "Over-commercial travel pages",
+        "Fake travel content creators",
+        "Creators ignoring responsible travel practices"
+      ],
+      "brand_voice": "Inspiring, grounded, curious, thoughtful",
+      "content_guidelines": {
+        "must_include": [
+          "Real travel experiences",
+          "Local interaction highlights",
+          "Clear itinerary or destination context"
+        ],
+        "must_avoid": [
+          "Misrepresentation of destinations",
+          "Unsafe travel promotion",
+          "Over-glamorization"
+        ]
+      },
+      "indian_market_context": {
+        "challenges": [
+          "Price sensitivity for experiential travel",
+          "Trust building for lesser-known destinations"
+        ],
+        "opportunities": [
+          "Post-pandemic travel boom",
+          "Rise of experiential tourism",
+          "Creator-led travel discovery"
+        ]
+      }
+    },
+    {
+      "brand_id": "BR011",
+      "brand_name": "AstroSetu",
+      "industry": "Astrology & Spiritual Wellness Platform",
+      "company_size": "Growth Stage (50-100 employees)",
+      "founded": 2019,
+      "website": "https://www.astrosetu.in/",
+      "description": "AstroSetu is a digital astrology and spiritual guidance platform connecting users with verified astrologers for personalized consultations, horoscopes, and remedial guidance. Blending traditional Vedic astrology with modern digital access, AstroSetu focuses on trust, authenticity, and long-term spiritual well-being.",
+      "target_audience": {
+        "age_range": "22-50",
+        "primary_gender": "Female (60%), Male (40%)",
+        "locations": ["Mumbai", "Delhi NCR", "Bangalore", "Pune", "Jaipur", "Tier 1 cities"],
+        "income_level": "Middle Class to Upper Middle Class (₹4L-₹20L annual income)",
+        "interests": [
+          "Astrology and horoscopes",
+          "Spirituality and mindfulness",
+          "Life guidance and self-discovery",
+          "Vedic astrology",
+          "Numerology and tarot",
+          "Personal growth and mental well-being"
+        ],
+        "psychographics": "Individuals seeking guidance in career, relationships, health, and life decisions. They believe in astrology as a supportive tool rather than blind prediction. Value astrologers with calm communication, ethical practices, and clear explanations. Strongly influenced by astrologer creators they trust."
+      },
+      "brand_values": [
+        "Ethical astrology practices",
+        "Authenticity and trust",
+        "Respect for traditional knowledge",
+        "User privacy and confidentiality",
+        "Spiritual well-being over fear-based marketing"
+      ],
+      "unique_selling_points": [
+        "Verified and vetted astrologers only",
+        "Focus on guidance, not fear or superstition",
+        "Personalized consultations via chat and call",
+        "Combination of astrology, numerology, and tarot",
+        "Transparent pricing with no hidden remedies push"
+      ],
+      "campaign_goals": {
+        "primary_objective": "Onboard high-quality astrologer creators and drive user consultations",
+        "secondary_objective": "Build trust and credibility among astrology-seeking audiences",
+        "campaign_type": "Astrology education + live guidance sessions + creator-led trust building",
+        "key_messages": [
+          "Guidance, not fear",
+          "Astrology with integrity",
+          "Clarity for your life’s questions"
+        ],
+        "target_metrics": {
+          "reach": "2.5-3 million impressions",
+          "engagement": "80,000+ engaged users",
+          "conversions": "10,000+ app sign-ups and 3,000+ first consultations"
+        }
+      },
+      "creator_preferences": {
+        "follower_range": "100K-800K (astrologers and spiritual creators)",
+        "engagement_priority": "High trust, saves, and comment quality over viral reach",
+        "content_authenticity": "Creators must actively practice astrology or spiritual guidance and explain concepts calmly and responsibly",
+        "platforms": ["Instagram", "YouTube"],
+        "content_style": "Horoscope explainers, live astrology sessions, Q&A, educational reels, myth-busting content",
+        "niche_alignment": [
+          "Astrologers and horoscope creators",
+          "Vedic astrology educators",
+          "Tarot and numerology creators",
+          "Spiritual wellness influencers"
+        ],
+        "language_preference": "Hindi + English preferred, regional language astrologers encouraged",
+        "must_avoid": [
+          "Fear-based prediction creators",
+          "Creators selling aggressive paid remedies",
+          "Unverified or pseudo-scientific claims",
+          "Astrology meme pages without educational value"
+        ]
+      },
+      "budget": {
+        "campaign_budget": "₹32,00,000",
+        "per_creator_range": "₹1,00,000 - ₹7,00,000",
+        "number_of_creators": "7-10 creators",
+        "live_session_budget": "₹6,00,000"
+      },
+      "past_successful_partnerships": [
+        "Instagram astrologers",
+        "YouTube horoscope explainers",
+        "Spiritual educators",
+        "Live astrology session hosts"
+      ],
+      "avoid_partnerships_with": [
+        "Creators making extreme future predictions",
+        "Fear-inducing astrology pages",
+        "Creators pushing expensive gemstones or remedies aggressively",
+        "Unethical spiritual marketers"
+      ],
+      "brand_voice": "Calm, reassuring, ethical, educational, spiritually grounded",
+      "content_guidelines": {
+        "must_include": [
+          "Educational context for predictions",
+          "Clear disclaimers (guidance, not guarantees)",
+          "Respectful and calming tone",
+          "User empowerment messaging"
+        ],
+        "must_avoid": [
+          "Fear-based language",
+          "Guaranteed outcome claims",
+          "Pressure-selling remedies",
+          "Manipulative emotional messaging"
+        ]
+      },
+      "indian_market_context": {
+        "challenges": [
+          "Low trust due to fake astrologers",
+          "Regulatory and ethical scrutiny",
+          "Audience skepticism about monetized astrology"
+        ],
+        "opportunities": [
+          "Massive astrology consumption in India",
+          "Creator-led trust building",
+          "Digital consultations replacing offline visits",
+          "Growing interest in mindful spirituality"
+        ]
       }
     }
   ]
